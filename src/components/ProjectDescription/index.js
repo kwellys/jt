@@ -1,0 +1,21 @@
+import React from "react";
+import "./styles.scss";
+
+const ProjectDescriptionColumn = ({ column }) => (
+  <div className="project-descr__column">
+    {column.split("\n").map(item => <p key={item} className="project-descr__descr">{item}</p>)}
+  </div>
+);
+
+const ProjectDescription = ({ descr, title }) => (
+  <section className="project-descr">
+    <div className="project-descr__wrapper">
+      <h2 className="project-descr__title">{title}</h2>
+      <div className="project-descr__columns">
+        {descr ? Object.keys(descr).map(column => <ProjectDescriptionColumn key={descr[column]} column={descr[column]} />) : null}
+      </div>
+    </div>
+  </section>
+);
+
+export default ProjectDescription;

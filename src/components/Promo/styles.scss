@@ -1,0 +1,159 @@
+@import "../../assets/variables";
+
+.promo {
+  margin-bottom: 55px;
+
+  background-color: $blue;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 60px;
+  }
+
+  @media (max-width: $mobile-width) {
+    margin-bottom: 45px;
+  }
+}
+
+.promo__wrapper {
+  max-width: 995px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 75px;
+
+  @media (max-width: $tablet-width) {
+    padding: 0 50px;
+    padding-bottom: 70px;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding: 55px 20px;
+    padding-bottom: 90px;
+  }
+
+  .promo__title {
+    width: 99.5%;
+  }
+}
+
+.promo__image-container {
+  margin: 0 auto;
+  max-width: 580px;
+  min-height: 230px;
+
+  @media (max-width: 1000px) {
+    min-height: auto;
+  }
+
+  .promo__big {
+    max-width: 100%;
+  }
+}
+
+.promo__title {
+  min-height: 212px;
+
+  @media (max-width: 1000px) {
+    min-height: auto;
+  }
+}
+
+.promo__heading {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  padding: 0;
+
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 91px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media (max-width: $tablet-width) {
+    padding-top: 40px;
+
+    font-size: 70px;
+    text-align: left;
+  }
+
+  @media (max-width: 500px) {
+    padding-top: 30px;
+
+    font-size: 50px;
+    line-height: 1.4;
+  }
+
+  @media (max-width: 400px) {
+    margin-bottom: 25px;
+    padding-top: 20px;
+
+    font-size: 35px;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding-top: 0;
+  }
+}
+
+.promo__sub,
+.promo__link {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 30px;
+
+    text-align: left;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 20px;
+  }
+}
+
+.promo__link {
+  display: block;
+
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.promo__descr {
+  max-width: 420px;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  @media (max-width: $tablet-width) {
+    max-width: 400px;
+    margin-bottom: 50px;
+
+    font-size: 23px;
+    line-height: 34px;
+  }
+
+  @media (max-width: 500px) {
+    margin-bottom: 70px;
+
+    line-height: 33px;
+  }
+}

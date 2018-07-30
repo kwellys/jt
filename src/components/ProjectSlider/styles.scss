@@ -1,0 +1,60 @@
+@import "../../assets/variables";
+
+.project-slider {
+  margin-bottom: 105px;
+}
+
+.project-slider__wrapper {
+  max-width: 1235px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @media (max-width: $tablet-width) {
+    padding: 0 50px;
+  }
+
+  @media (max-width: 550px) {
+    padding: 0 20px;
+  }
+}
+
+.project-slider__big-slide {
+  height: 715px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.project-slider__small {
+  margin-top: 20px;
+
+  .swiper-wrapper {
+    align-items: stretch;
+    justify-content: space-between;
+  }
+}
+
+.project-slider__small-slide {
+  height: 160px;
+  padding: 4px;
+
+  &--current {
+    box-shadow: inset -4px -4px $blue,
+    inset 4px 4px $blue;
+  }
+
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

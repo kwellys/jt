@@ -1,0 +1,113 @@
+@import '../../assets/variables';
+
+.label {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  text-transform: capitalize;
+
+  &--file {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 44px;
+    height: 40px;
+
+    background: url("../../assets/images/icons/file.png") no-repeat center;
+    background-size: 20px 11px;
+
+    cursor: pointer;
+  }
+
+  @media (max-width: $mobile-width) {
+    margin-bottom: 5px;
+
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
+
+.input__container {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 35px;
+  }
+}
+
+.input {
+  margin: 0;
+  padding: 13px 14px;
+
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
+
+  border: none;
+  resize: none;
+
+  @media (max-width: $tablet-width) {
+    padding: 10px 14px;
+
+    font-size: 14px;
+  }
+
+  &--invalid {
+    outline: 2px solid $pink;
+  }
+
+  &--textarea {
+    min-height: 109px;
+    padding-bottom: 40px;
+  }
+
+  &--file {
+    position: absolute;
+    left: -99999px;
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.input__invalid {
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: $pink;
+}
+
+.input__files {
+  position: absolute;
+  bottom: 0;
+  left: 45px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input__file {
+  margin-right: 15px;
+  margin-bottom: 8px;
+  padding: 1px 7px;
+
+  font-size: 12px;
+  line-height: 20px;
+  color: $blue;
+
+  background-color: #f2f8ff;
+  border-radius: 3px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

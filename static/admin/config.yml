@@ -18,7 +18,205 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
-
+  - name: project
+    label: Projects
+    folder: src/pages/projects
+    create: true
+    fields:
+    - label: 'Template Key'
+      name: templateKey
+      widget: hidden
+      default: project
+    -
+      label: Title
+      name: title
+      widget: string
+    - {label: "Tags", name: "tags", widget: "list"}
+    -
+      label: Date
+      name: date
+      widget: datetime
+    -
+      label: Category
+      name: category
+      widget: select
+      options:
+      - 'Enterprise Solution'
+      - Blockchain
+      - 'Booking & Event Platforms'
+      - E-commerce
+      - Fintech
+    - label: 'Small description'
+      name: smallDescr
+      widget: text
+    - label: 'Project Preview Image'
+      name: preview
+      widget: image
+    -
+      label: Promo
+      name: promo
+      widget: object
+      fields:
+      -
+        label: Description
+        name: sub
+        widget: text
+        default: 'Some text'
+      -
+        label: Link
+        name: link
+        widget: string
+        default: 'link.com'
+    -
+      label: 'Clients Goals'
+      name: goals
+      widget: object
+      fields:
+      -
+        label: 'Section Title'
+        name: title
+        widget: string
+        default: 'Section Title'
+      -
+        label: Description
+        name: descr
+        widget: object
+        fields:
+        -
+          label: 'Left Column'
+          name: leftCol
+          widget: text
+          default: 'Some text'
+        -
+          label: 'Right Column'
+          name: rightCol
+          widget: text
+          default: 'Some text'
+    -
+      label: Slide
+      name: slider
+      widget: list
+      fields:
+      -
+        label: Image
+        name: img
+        widget: image
+        default: 'No image provided'
+    -
+      label: Solutions
+      name: solutions
+      widget: object
+      fields:
+      -
+        label: 'Section Title'
+        name: title
+        widget: string
+        default: 'Section Title'
+      -
+        label: Description
+        name: descr
+        widget: object
+        fields:
+        -
+          label: 'Left Column'
+          name: leftCol
+          widget: text
+          default: 'Some text'
+        -
+          label: 'Right Column'
+          name: rightCol
+          widget: text
+          default: 'Some text'
+    -
+      label: Stages
+      name: stages
+      widget: list
+      fields:
+      -
+        label: 'Stage Details'
+        name: stageDetails
+        widget: text
+        default: 'Some details'
+      -
+        label: 'Stage Is Completed'
+        name: isComplete
+        widget: boolean
+        default: 'true'
+    -
+      label: 'Used Technologies'
+      name: technologies
+      widget: list
+      fields:
+      -
+        label: 'Technology Name'
+        name: name
+        widget: string
+        default: 'Some technology'
+      -
+        label: 'Technology Logo'
+        name: image
+        widget: image
+        default: 'No image provided'
+    -
+      label: 'Project Results'
+      name: projectResults
+      widget: object
+      fields:
+      -
+        label: Description
+        name: descr
+        widget: text
+        default: 'Some text'
+      -
+        label: Result
+        name: results
+        widget: list
+        fields:
+        -
+          label: 'Result Title'
+          name: title
+          widget: string
+          default: 'Some Title'
+        -
+          label: 'Result Description'
+          name: descr
+          widget: text
+          default: 'Some text'
+        -
+          label: 'Result Icon'
+          name: icon
+          widget: image
+          default: 'No image provided'
+    -
+      label: 'Project Testimonial'
+      name: testimonial
+      widget: object
+      fields:
+      -
+        label: Review
+        name: description
+        widget: text
+        default: 'Some text'
+      -
+        label: Person
+        name: person
+        widget: object
+        fields:
+        -
+          label: Name
+          name: name
+          widget: string
+          default: 'Some person'
+        -
+          label: Photo
+          name: image
+          widget: image
+          default: 'No image provided'
+        -
+          label: Occupation
+          name: occupation
+          widget: string
+          default: 'Some occupation'
   - name: "pages"
     label: "Pages"
     files:

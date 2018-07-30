@@ -1,0 +1,55 @@
+@import "../../assets/variables";
+.btn {
+  width: 100%;
+
+  margin: 0;
+  padding: 20px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: $pink;
+  border: none;
+
+  cursor: pointer;
+  outline: none;
+
+  transition: 0.3s;
+
+  @media (max-width: $tablet-width) {
+    padding: 17px;
+
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+
+  &:hover,
+  &:focus {
+    background-color: #D702B5;
+  }
+
+  &--header {
+    width: auto;
+    padding: 11px 20px;
+    font-size: 12px;
+    line-height: 14px;
+
+    @media (max-width: $tablet-width) {
+      display: none;
+    }
+  }
+
+  &--promo {
+    display: none;
+
+    @media (max-width: $tablet-width) {
+      display: block;
+      max-width: 276px;
+    }
+  }
+}

@@ -1,0 +1,167 @@
+@import "../../assets/variables";
+
+.services {
+  margin-bottom: 80px;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: -20px;
+  }
+
+  @media (max-width: 400px) {
+    margin-bottom: 80px;
+  }
+}
+
+.services__wrapper {
+  max-width: 1235px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @media (max-width: $tablet-width) {
+    padding: 0 50px;
+  }
+
+  @media (max-width: 400px) {
+    padding: 0 20px;
+  }
+}
+
+.services__title {
+  margin: 0;
+  margin-bottom: 65px;
+  padding: 0;
+
+  img {
+    max-width: 100%;
+    max-height: 120px;
+  }
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 70px;
+
+    img {
+      max-height: 95px;
+    }
+  }
+
+  @media (max-width: $mobile-width) {
+    margin-bottom: 60px;
+
+    img {
+      max-height: 60px;
+    }
+  }
+}
+
+.services__list {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: $tablet-width) {
+    flex-wrap: wrap;
+  }
+
+}
+
+.services__item {
+  max-width: 285px;
+
+  text-align: center;
+
+  @media (max-width: $tablet-width) {
+    max-width: 48%;
+    width: 100%;
+    margin-bottom: 95px;
+  }
+
+  @media (max-width: 400px) {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+.services__icon {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 120px;
+  margin-bottom: 35px;
+
+  &:hover + .services__heading {
+    color: $blue;
+  }
+
+  img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: $tablet-width) {
+    height: 115px;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 400px) {
+    height: 90px;
+  }
+}
+
+.services__heading {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 50px;
+
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  @media (max-width: 400px) {
+    margin-bottom: 15px;
+
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  a {
+    font: inherit;
+    color: inherit;
+
+    transition: 0.3s;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+}
+
+.services__descr {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+
+  font-size: 18px;
+  line-height: 27px;
+
+  @media (max-width: $tablet-width) {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  @media (max-width: 400px) {
+    margin-bottom: 30px;
+
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

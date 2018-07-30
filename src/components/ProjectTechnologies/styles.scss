@@ -1,0 +1,78 @@
+@import "../../assets/variables";
+
+.project-tech {
+  margin-bottom: 70px;
+}
+
+.project-tech__wrapper {
+  max-width: 1235px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @media (max-width: $tablet-width) {
+    padding: 0 50px;
+  }
+
+  @media (max-width: 550px) {
+    padding: 0 20px;
+  }
+}
+
+.project-tech__title {
+  margin: 0;
+  margin-bottom: 80px;
+  padding: 0;
+
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: 2px;
+  color: $blue;
+  text-transform: uppercase;
+
+  @media (max-width: 400px) {
+    font-size: 38px;
+    line-height: 51px;
+  }
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 80px;
+  }
+}
+
+.project-tech__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-tech__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 55px;
+
+  //width: 20%;
+
+  &:hover img {
+    filter: grayscale(0);
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 53px;
+    filter: grayscale(1);
+
+    transition: 0.3s;
+  }
+
+  @media (max-width: $tablet-width) {
+    width: 33.333333%;
+  }
+
+  @media (max-width: $mobile-width) {
+    width: 50%;
+    height: 55px;
+    margin-bottom: 15px;
+  }
+}

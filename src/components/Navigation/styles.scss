@@ -1,0 +1,140 @@
+@import "../../assets/variables";
+
+.main-nav {
+  margin: 0 10px;
+  @media (max-width: $tablet-width) {
+    position: absolute;
+    top: 65px;
+    left: 0;
+
+    display: none;
+
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0 20px;
+
+    background-color: #ffffff;
+  }
+}
+
+.main-nav__list {
+  display: flex;
+
+  @media (max-width: $tablet-width) {
+    flex-direction: column;
+  }
+}
+
+.main-nav__item {
+  position: relative;
+
+  margin-right: 50px;
+
+  @media (max-width: $tablet-width) {
+    margin-right: 0;
+    margin-bottom: 40px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+
+  &:hover {
+    .main-nav__link {
+      position: relative;
+    }
+
+    .main-nav__sublist {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.main-nav__link {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  transition: 0.3s;
+  cursor: pointer;
+
+  @media (max-width: $tablet-width) {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #333333;
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &--active {
+      color: $blue;
+    }
+  }
+}
+
+.main-nav__sublist {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+
+  border: 2px solid #ffffff;
+  background-color: $blue;
+
+  transition: 0.3s;
+
+  @media (max-width: $tablet-width) {
+    display: none;
+
+    position: static;
+    visibility: visible;
+    opacity: 1;
+    margin-top: 15px;
+
+    background-color: transparent;
+
+    &--opened {
+      display: block;
+    }
+  }
+
+}
+
+.main-nav__sublink {
+  display: block;
+  padding: 9px 10px;
+
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  color: #ffffff;
+
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #0C2294;
+  }
+
+  @media (max-width: $tablet-width) {
+    padding-left: 30px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+
+    &:hover {
+      color: $blue;
+      text-decoration: underline;
+      background-color: transparent;
+    }
+  }
+}

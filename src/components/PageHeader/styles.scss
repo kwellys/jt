@@ -1,0 +1,76 @@
+@import "../../assets/variables";
+.page-header {
+  height: 67px;
+  background-color: $blue;
+
+  @media (max-width: $tablet-width) {
+    &--opened {
+      position: fixed;
+      z-index: 2;
+      top: 0;
+
+      width: 100%;
+      background-color: #ffffff;
+
+      .page-header__toggle {
+        display: block;
+
+        width: 19px;
+
+        background-image: url("../../assets/images/icons/menu-close.png");
+      }
+
+      .main-nav {
+        display: block;
+      }
+    }
+  }
+}
+
+.page-header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 1235px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @media (max-width: $tablet-width) {
+    position: relative;
+    padding: 0 20px;
+    padding-top: 10px;
+  }
+}
+
+.page-header__logo {
+  @media (max-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.page-header__toggle {
+  display: none;
+
+  position: absolute;
+  top: 23px;
+  right: 50px;
+
+  width: 32px;
+  height: 19px;
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  outline: none;
+
+  background: transparent url("../../assets/images/icons/menu-toggle.png") no-repeat center / contain;
+
+  @media (max-width: $tablet-width) {
+    display: block;
+  }
+
+  @media (max-width: $mobile-width) {
+    right: 21px;
+  }
+}
