@@ -27,11 +27,42 @@ class TemplateWrapper extends Component {
     });
   };
 
+  getProjects = () => {
+    const projectsData = this.props.data.projects.edges.map(item => item.node.frontmatter);
+    return projectsData;
+  };
+
   render() {
-    const { data, children } = this.props;
-    console.log(data)
-    const servicesData = data.projects.edges;
-    const allServices = servicesData.map(item => item.node.frontmatter);
+    const { children } = this.props;
+
+    const menuItems = [
+      {
+        title: "Services",
+        link: 'services',
+        sublist: ''
+      },
+      {
+        title: "Industries",
+        link: "expertise",
+        sublist: ''
+      },
+      {
+        title: "Technologies",
+        link: "technologies",
+        sublist: ''
+      },
+      {
+        title: "Work",
+        link: "projects",
+        sublist: this.getProjects()
+      },
+      {
+        title: "About Us",
+        link: "about-us",
+        sublist: ''
+      }
+    ];
+
     return (
       <Fragment>
         <Helmet
@@ -40,7 +71,8 @@ class TemplateWrapper extends Component {
             { rel: "shortcut icon", type: "image/png", href: `${Favicon}` }
           ]}
         />
-        <Navbar />
+        {this.state.isModalOpen ? <Modal handleModal={this.handleModal}/> : null}
+        <PageHeader menuList = {menuItems} state={this.props.state} modalState={this} handleModal={this.handleModal} />
         <Fragment>
           {children({ ...this.props, handleModal: this.handleModal })}
         </Fragment>
