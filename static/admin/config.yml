@@ -220,13 +220,75 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/about/index.md"
-        label: "About"
-        name: "about"
+    -
+      file: src/pages/about-us.md
+      name: about
+      label: 'About Us Page'
+      fields:
+      -
+        label: 'Template Key'
+        name: templateKey
+        widget: hidden
+        default: about-page
+      -
+        label: Title
+        name: title
+        widget: string
+        default: title
+      -
+        label: Promo
+        name: promo
+        widget: object
+        required: false
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+        -
+          label: Description
+          name: sub
+          widget: text
+        -
+          label: 'Big Logo'
+          name: image
+          widget: image
+      -
+        label: 'About Us'
+        name: aboutUs
+        widget: object
+        required: false
+        fields:
+        -
+          label: Title
+          name: title
+          widget: text
+        -
+          label: Description
+          name: descr
+          widget: text
+        -
+          label: Image
+          name: image
+          widget: image
+      -
+        label: 'Our Team'
+        name: companyandteam
+        widget: object
+        fields:
+        -
+          label: 'Team Members'
+          name: members
+          widget: list
+          fields:
+          -
+            label: 'Team Member Name'
+            name: name
+            widget: string
+          -
+            label: 'Team Member Photo'
+            name: image
+            widget: image
+          -
+            label: 'Team Member Position'
+            name: occupation
+            widget: string
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"

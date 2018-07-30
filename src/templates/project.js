@@ -43,11 +43,7 @@ export const ProjectTemplate = ({
 
 const Project = ({data, handleModal}) => {
   const project = data.projects.frontmatter;
-  const latestProjectsData = data.latestProjects.edges;
-
-  const allPages = latestProjectsData.map(item => item.node.frontmatter);
-  const filter = () =>  allPages.filter(item => item.title !== project.title);
-  const latestProjects = filter();
+  const latestProjectsData = data.latestProjects.edges.map(item => item.node.frontmatter).filter(item => item.title !== project.title).slice(0, 2);
 
   return (
     <ProjectTemplate
@@ -60,7 +56,7 @@ const Project = ({data, handleModal}) => {
       projectResults={project.projectResults}
       stages={project.stages}
       solutions={project.solutions}
-      latestProjects={latestProjects}
+      latestProjects={latestProjectsData}
       handleModal={handleModal}
     />
   );

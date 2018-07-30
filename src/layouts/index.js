@@ -32,14 +32,20 @@ class TemplateWrapper extends Component {
     return projectsData;
   };
 
+  getServices = () => {
+    const servicesData = this.props.data.services.edges.map(item => item.node.frontmatter);
+    return servicesData;
+  };
+
   render() {
-    const { children } = this.props;
+    const { children, data } = this.props;
+    console.log(templateWrapper);
 
     const menuItems = [
       {
         title: "Services",
         link: 'services',
-        sublist: ''
+        sublist: this.getServices()
       },
       {
         title: "Industries",
@@ -91,6 +97,15 @@ export default TemplateWrapper;
 export const templateWrapper = graphql`
   query templateWrapperQuery {
     projects: allMarkdownRemark (filter: { frontmatter: { templateKey: { eq: "project" } }}) {
+      edges {
+        node {
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+    services: allMarkdownRemark (filter: { frontmatter: { templateKey: { eq: "service" } }}) {
       edges {
         node {
           frontmatter {

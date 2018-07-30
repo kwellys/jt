@@ -1,59 +1,64 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Content, { HTMLContent } from '../components/Content'
+import React, { Fragment } from "react";
+import Helmet from "react-helmet";
+import Promo from "../components/Promo";
+import Start from "../components/Start";
+import Team from "../components/Team";
+import AboutUsBrief from "../components/AboutUsBrief";
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+export const AboutUsTemplate = ({
+                                  title,
+                                  promo,
+                                  aboutUs,
+                                  companyandteam,
+                                  handleModal
+                                }) => {
+  return (
+    <Fragment>
+      <Helmet title={`${title}`}/>
+      {promo.length !== 0 || promo  ? <Promo bigLogo={promo.image} sub={promo.sub}/> : null}
+      <AboutUsBrief {...aboutUs}/>
+      {companyandteam.length !== 0 || companyandteam ? <Team {...companyandteam}/> : null}
+      <Start />
+    </Fragment>
+  );
+};
+
+const AboutUs = ({ data, handleModal }) => {
+  const { markdownRemark: about } = data;
 
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  )
-}
-
-AboutPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
-}
-
-const AboutPage = ({ data }) => {
-  const { markdownRemark: post } = data
-
-  return (
-    <AboutPageTemplate
-      contentComponent={HTMLContent}
-      title={post.frontmatter.title}
-      content={post.html}
+    <AboutUsTemplate
+      title={about.frontmatter.title}
+      promo={about.frontmatter.promo}
+      aboutUs={about.frontmatter.aboutUs}
+      companyandteam={about.frontmatter.companyandteam}
+      handleModal={handleModal}
     />
-  )
-}
+  );
+};
 
-AboutPage.propTypes = {
-  data: PropTypes.object.isRequired,
-}
+export default AboutUs;
 
-export default AboutPage
-
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const pageQuery = graphql`
+  query AboutUsTemplateByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      html
       frontmatter {
         title
+        promo {
+          image
+          sub
+        }
+        aboutUs {
+          title
+          descr
+          image
+        }
+        companyandteam {
+          members {
+            name
+          }
+        }
       }
     }
   }
-`
+`;
