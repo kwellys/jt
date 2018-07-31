@@ -3,6 +3,9 @@ import PropTypes from "prop-types";
 import { IndexPageTemplate } from "../../templates/index-page";
 
 const IndexPagePreview = ({ entry, widgetFor }) => {
+  const entryPromo = entry.getIn(["data", "promo"]);
+  const promo = entryPromo ? entryPromo.toJS() : [];
+
   const entryFeatures = entry.getIn(["data", "features"]);
   const features = entryFeatures ? entryFeatures.toJS() : [];
 
@@ -27,7 +30,7 @@ const IndexPagePreview = ({ entry, widgetFor }) => {
   return (
     <IndexPageTemplate
       title={entry.getIn(["data", "title"])}
-      promo={entry.getIn(["data", "promo"])}
+      promo={promo}
       features={features}
       services={services}
       technologies={technologies}
