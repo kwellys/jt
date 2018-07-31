@@ -39,7 +39,6 @@ class TemplateWrapper extends Component {
 
   render() {
     const { children, data } = this.props;
-    console.log(templateWrapper);
 
     const menuItems = [
       {

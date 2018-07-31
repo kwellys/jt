@@ -37,7 +37,6 @@ class NavigationItem extends Component {
       this.menuItemHandler();
     }
     else{
-      console.log("expanded");
       this.props.clickHandler();
     }
   };

@@ -11,7 +11,6 @@ class PageHeader extends React.Component {
     isOpen: false
   };
   headerClickHandler = () => {
-    console.log('someone clicked me');
     this.setState(prevState => {
       return { isOpen: !prevState.isOpen };
     });
