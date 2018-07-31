@@ -32,9 +32,11 @@ class Modal extends React.Component {
     isSubmitted: false,
   };
 
-  handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(e.target);
+  handleSubmit = () => {
+    this.setState(prevState => {
+      return { isSubmitted: !prevState.isSubmitted };
+    });
+    setTimeout(this.props.handleModal, 5000)
   };
 
   render() {
@@ -53,7 +55,7 @@ class Modal extends React.Component {
             <Form
               fields={data}
               formClass="modal__form"
-              clickHandler={(e) => this.handleSubmit}
+              clickHandler={this.handleSubmit}
             />
           )}
 
