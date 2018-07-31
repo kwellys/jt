@@ -15,7 +15,7 @@ class TemplateWrapper extends Component {
     isModalOpen: true
   };
 
-  componentWillMount = () => {
+  componentWillReceiveProps = () => {
     this.setState(prevState => {
       return { isModalOpen: !prevState.isModalOpen };
     });
