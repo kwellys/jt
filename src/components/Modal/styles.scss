@@ -28,7 +28,7 @@
   &.submitted {
     display: flex;
 
-    .modal__form {
+    .modal-window__form {
       display: none;
     }
 
@@ -90,7 +90,7 @@
   cursor: pointer;
 }
 
-.modal__form {
+.modal-window__form {
   width: 100%;
 }
 
