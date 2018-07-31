@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.scss'
-import GeoMap from '../../assets/images/content/map.png'
+import GeoMap from '../../assets/images/content/map.svg'
 import LinkedIn from '../../assets/images/icons/linkedin.png'
 import UpWork from '../../assets/images/icons/upwork.png'
 
