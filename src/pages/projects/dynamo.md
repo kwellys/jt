@@ -1,8 +1,6 @@
 ---
 templateKey: project
 title: Dynamo
-tags:
-  - fintech
 date: '2018-07-19T15:39:40+03:00'
 category: Fintech
 smallDescr: Small description for dynamo project

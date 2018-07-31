@@ -18,6 +18,105 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
+  -
+    name: service
+    label: Services
+    folder: src/pages/services
+    fields:
+    -
+      label: 'Template Key'
+      name: templateKey
+      widget: hidden
+      default: service
+    -
+      label: Title
+      name: title
+      widget: string
+    -
+      label: Promo
+      name: promo
+      widget: object
+      required: false
+      fields:
+      -
+        label: Description
+        name: sub
+        widget: text
+      -
+        label: 'Big Logo'
+        name: image
+        widget: image
+    -
+      label: 'Features List'
+      name: features
+      required: false
+      widget: object
+      fields:
+      -
+        label: 'Features Section Heading'
+        name: title
+        widget: string
+      -
+        label: 'Features Section Subheading'
+        name: sub
+        widget: string
+      -
+        label: 'Features Section Description'
+        name: descr
+        widget: text
+      -
+        label: Feature
+        name: featuresList
+        widget: list
+        fields:
+        -
+          label: Title
+          name: title
+          widget: string
+        -
+          label: Image
+          name: img
+          widget: image
+        -
+          label: Text
+          name: descr
+          widget: text
+    -
+      label: 'Featured Technologies Section'
+      required: false
+      name: featuredTech
+      widget: object
+      fields:
+      -
+        label: 'Featured Tech Title'
+        name: heading
+        widget: string
+      -
+        label: 'Featured Tech Subheading'
+        name: sub
+        widget: string
+      -
+        label: 'Featured Tech Description'
+        name: descr
+        widget: text
+      -
+        label: 'Featured Tech Image'
+        name: image
+        widget: image
+    -
+      label: 'Used Technologies'
+      required: false
+      name: technologies
+      widget: list
+      fields:
+      -
+        label: 'Technology Name'
+        name: name
+        widget: string
+      -
+        label: 'Technology Logo'
+        name: image
+        widget: image
   - name: project
     label: Projects
     folder: src/pages/projects
@@ -303,3 +402,215 @@ collections:
           - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+    -
+      file: src/pages/index.md
+      name: index
+      label: 'Index Page'
+      fields:
+      -
+        label: 'Template Key'
+        name: templateKey
+        widget: hidden
+        default: index-page
+      -
+        label: Title
+        name: title
+        widget: string
+        default: title
+      -
+        label: 'Promo Section'
+        name: promo
+        widget: object
+        fields:
+        -
+          label: 'Big Logo'
+          name: image
+          widget: image
+        -
+          label: Description
+          name: descr
+          widget: text
+      -
+        label: 'Features List'
+        name: features
+        widget: object
+        fields:
+        -
+          label: 'Section Heading'
+          name: title
+          widget: string
+        -
+          label: 'Section subheading'
+          name: sub
+          widget: string
+        -
+          label: 'Section description'
+          name: descr
+          widget: text
+        -
+          label: Feature
+          name: featuresList
+          widget: list
+          fields:
+          -
+            label: Title
+            name: title
+            widget: string
+          -
+            label: Image
+            name: img
+            widget: image
+          -
+            label: Text
+            name: descr
+            widget: text
+      -
+        label: 'Services Section'
+        name: services
+        widget: list
+        fields:
+        -
+          label: Title
+          name: title
+          widget: string
+        -
+          label: Image
+          name: img
+          widget: image
+        -
+          label: 'Link (should be exactly the same as the page address it leads to)'
+          name: link
+          widget: string
+        -
+          label: Services
+          name: descr
+          widget: list
+          fields:
+          -
+            label: Service
+            name: service
+            widget: string
+      -
+        label: 'Technologies Section'
+        name: technologies
+        widget: list
+        fields:
+        -
+          label: 'Technologies Group'
+          name: title
+          widget: string
+        -
+          label: 'Technologies List'
+          name: list
+          widget: list
+          fields:
+          -
+            label: 'Technology Name'
+            name: name
+            widget: string
+          -
+            label: 'Technology Image'
+            name: image
+            widget: image
+      -
+        label: 'Testimonials Section'
+        name: testimonials
+        widget: list
+        fields:
+        -
+          label: 'Company name'
+          name: company
+          widget: string
+        -
+          label: 'Reviver Photo'
+          name: img
+          widget: image
+        -
+          label: 'Reviver Name'
+          name: personName
+          widget: string
+        -
+          label: 'Reviver Occupation'
+          name: occupation
+          widget: string
+        -
+          label: 'Used technologies'
+          name: features
+          widget: string
+        -
+          label: Review
+          name: review
+          widget: text
+      -
+        label: 'Company&Team Section'
+        name: companyandteam
+        widget: object
+        fields:
+        -
+          label: 'Our Mission'
+          name: description
+          widget: text
+        -
+          label: 'Team Members'
+          name: members
+          widget: list
+          fields:
+          -
+            label: 'Team Member Name'
+            name: name
+            widget: string
+          -
+            label: 'Team Member Photo'
+            name: image
+            widget: image
+          -
+            label: 'Team Member Position'
+            name: occupation
+            widget: string
+      -
+        label: 'Why Us Section'
+        name: why
+        widget: list
+        fields:
+        -
+          label: 'Reason Title'
+          name: title
+          widget: string
+        -
+          label: 'Reason Image'
+          name: image
+          widget: image
+        -
+          label: 'Reasons Description'
+          name: descr
+          widget: string
+      -
+        label: 'Geography Section'
+        name: geography
+        widget: list
+        fields:
+        -
+          label: 'Client Name'
+          name: company
+          widget: string
+        -
+          label: 'Client Link'
+          name: link
+          widget: string
+        -
+          label: 'Cliend Logo'
+          name: logo
+          widget: image
+        -
+          label: 'Client Coords'
+          name: position
+          widget: object
+          fields:
+          -
+            label: 'X coordinate'
+            name: left
+            widget: string
+          -
+            label: 'Y coordinate'
+            name: top
+            widget: string  -

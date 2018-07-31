@@ -34,12 +34,8 @@ export const projectsQuery = graphql`
           frontmatter {
             title
             category
-            promo {
-              sub
-            }
-            slider {
-              img
-            }
+            smallDescr
+            preview
           }
         }
       }

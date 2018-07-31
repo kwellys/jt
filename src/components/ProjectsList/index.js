@@ -3,19 +3,19 @@ import Link from 'gatsby-link'
 import { kebabCase } from 'lodash';
 import "./styles.scss";
 
-const Project = ({ slider, title, promo, category }) => (
+const Project = ({ preview, title, smallDescr, category }) => (
   <li className="project-list__item">
     <Link to={`/projects/${kebabCase(title)}`} className="project-list__link">
       <span className="project-list__image-container">
         <img
-          src={slider[0].img}
+          src={preview}
           alt={title}
         />
       </span>
       <span className="project-list__container">
         <h2 className="project-list__title">{title}</h2>
         <h3 className="project-list__type">{category}</h3>
-        <p className="project-list__descr">{promo.sub.split(".")[0]}</p>
+        <p className="project-list__descr">{smallDescr}</p>
         <span className="project-list__more">
           See case
         </span>
