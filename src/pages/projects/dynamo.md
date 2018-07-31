@@ -1,8 +1,12 @@
 ---
 templateKey: project
 title: Dynamo
+tags:
+  - fintech
 date: '2018-07-19T15:39:40+03:00'
 category: Fintech
+smallDescr: Small description for dynamo project
+preview: /img/Figma.png
 promo:
   link: Dynamo.com
   sub: >-
@@ -89,8 +93,8 @@ testimonial:
     stabilizing the product over 3 major releases and remained fair and
     conscientious on the affordability of their services throughout.”
   person:
+    image: /img/Time.png
     name: Matthew Donohoe
     occupation: Project Manager
-    image: /img/Time.png
 ---
 
