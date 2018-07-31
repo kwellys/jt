@@ -58,7 +58,7 @@ input[type="radio"].visually-hidden {
     height: 100%;
     max-width: 100%;
   }
-  
+
   @media (max-width: $tablet-width) {
     height: calc(100vh - 68px - 214px);
   }

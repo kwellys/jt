@@ -614,3 +614,121 @@ collections:
             label: 'Y coordinate'
             name: top
             widget: string  -
+    - name: ind-page
+      label: 'Industries Pages'
+      files:
+      -
+        file: src/pages/fintech.md
+        name: Fintech
+        label: 'Fintech'
+        fields:
+        -
+          label: 'Template Key'
+          name: templateKey
+          widget: hidden
+          default: ind-page
+        -
+          label: Title
+          name: title
+          widget: string
+        -
+          label: Promo
+          name: promo
+          widget: object
+          fields:
+          -
+            label: Description
+            name: sub
+            widget: text
+      -
+        file: src/pages/blockchain.md
+        name: Blockchain
+        label: 'Blockchain'
+        fields:
+        -
+          label: 'Template Key'
+          name: templateKey
+          widget: hidden
+          default: ind-page
+        -
+          label: Title
+          name: title
+          widget: string
+        -
+          label: Promo
+          name: promo
+          widget: object
+          fields:
+          -
+            label: Description
+            name: sub
+            widget: text
+      -
+        file: src/pages/e-commerce.md
+        name: 'E-commerce'
+        label: 'E-commerce'
+        fields:
+        -
+          label: 'Template Key'
+          name: templateKey
+          widget: hidden
+          default: ind-page
+        -
+          label: Title
+          name: title
+          widget: string
+        -
+          label: Promo
+          name: promo
+          widget: object
+          fields:
+          -
+            label: Description
+            name: sub
+            widget: text
+      -
+        file: src/pages/booking.md
+        name: 'Booking & Event Platforms'
+        label: 'Booking & Event Platforms'
+        fields:
+        -
+          label: 'Template Key'
+          name: templateKey
+          widget: hidden
+          default: ind-page
+        -
+          label: Title
+          name: title
+          widget: string
+        -
+          label: Promo
+          name: promo
+          widget: object
+          fields:
+          -
+            label: Description
+            name: sub
+            widget: text
+      -
+        file: src/pages/enterprise-solution.md
+        name: 'Enterprise Solution'
+        label: 'Enterprise Solution'
+        fields:
+        -
+          label: 'Template Key'
+          name: templateKey
+          widget: hidden
+          default: ind-page
+        -
+          label: Title
+          name: title
+          widget: string
+        -
+          label: Promo
+          name: promo
+          widget: object
+          fields:
+          -
+            label: Description
+            name: sub
+            widget: text
