@@ -33,8 +33,6 @@ class Modal extends React.Component {
   };
 
   handleSubmit = () => {
-    console.log('submitted')
-
     setTimeout(() => this.setState(prevState => {
       return { isSubmitted: !prevState.isSubmitted };
     }), 1000);
