@@ -79,8 +79,7 @@ class Form extends Component {
       })
     })
       .then(() => {
-        navigateTo(form.getAttribute("action"));
-        this.props.clickHandler()
+        this.props.clickHandler
       })
       .catch(error => alert(error));
   };
