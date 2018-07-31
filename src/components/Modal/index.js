@@ -32,12 +32,12 @@ class Modal extends React.Component {
     isSubmitted: false,
   };
 
-  handleSubmit = () => {
-    this.setState(prevState => {
-      return { isSubmitted: !prevState.isSubmitted };
-    });
-    //setTimeout(this.props.handleModal, 5000)
-  };
+  // handleSubmit = () => {
+  //   this.setState(prevState => {
+  //     return { isSubmitted: !prevState.isSubmitted };
+  //   });
+  //   setTimeout(this.props.handleModal, 5000)
+  // };
 
   render() {
     const { handleModal } = this.props;
@@ -54,7 +54,7 @@ class Modal extends React.Component {
           {this.state.isSubmitted ? null : (
             <Form
               fields={data}
-              formClass="modal__form"
+              formClass="modal-window__form"
               clickHandler={this.handleSubmit}
             />
           )}
