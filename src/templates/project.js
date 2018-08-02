@@ -57,6 +57,7 @@ const Project = ({data, handleModal}) => {
       pageTitle={project.meta.pageTitle}
       metaTitle={project.meta.metaTitle}
       metaDescr={project.meta.metaDescr}
+      titlt={project.titlt}
       promo={project.promo}
       goals={project.goals}
       slider={project.slider}
