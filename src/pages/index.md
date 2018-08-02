@@ -1,6 +1,10 @@
 ---
 templateKey: index-page
 title: index
+meta:
+  metaDescr: meta descripition
+  metaTitle: meta title
+  pageTitle: Jet Technical
 promo:
   descr: We bring your web projects to life from wireframes to full-scale launch
   image: /img/jettech.png
