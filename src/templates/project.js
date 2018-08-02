@@ -1,5 +1,5 @@
-import React, {Fragment} from "react";
-import {kebabCase} from "lodash";
+import React, { Fragment } from "react";
+import { kebabCase } from "lodash";
 import Helmet from "react-helmet";
 import Promo from "../components/Promo";
 import ProjectSlider from "../components/ProjectSlider";
@@ -10,24 +10,23 @@ import Start from "../components/Start";
 import Stages from "../components/Stages";
 import ProjectResults from "../components/ProjectResults";
 import LatestProjects from "../components/LatestProjects";
-import {ServiceTemplate} from "./service";
 
 export const ProjectTemplate = ({
-                                  title,
-                                  pageTitle,
-                                  metaTitle,
-                                  metaDescr,
-                                  promo,
-                                  goals,
-                                  slider,
-                                  testimonial,
-                                  technologies,
-                                  projectResults,
-                                  stages,
-                                  solutions,
-                                  latestProjects,
-                                  handleModal
-                                }) => {
+  title,
+  pageTitle,
+  metaTitle,
+  metaDescr,
+  promo,
+  goals,
+  slider,
+  testimonial,
+  technologies,
+  projectResults,
+  stages,
+  solutions,
+  latestProjects,
+  handleModal
+}) => {
   return (
     <Fragment>
       <Helmet>
@@ -35,23 +34,38 @@ export const ProjectTemplate = ({
         <meta name="title" content={metaTitle} />
         <meta name="description" content={metaDescr} />
       </Helmet>
-      {promo.length || title ? <Promo heading={title} {...promo} handleModal={handleModal}/> : null}
-      {goals.length || goals ? <ProjectDescription {...goals}/> : null}
-      {slider.length || slider ? <ProjectSlider data={slider}/> : null}
-      {solutions.length || solutions ? <ProjectDescription {...solutions}/> : null}
-      {stages.length && stages ? <Stages data={stages}/> : null}
-      {technologies.length || technologies ? <ProjectTechnologies data={technologies}/> : null}
-      {projectResults.length || projectResults ? <ProjectResults data={projectResults}/> : null}
-      {testimonial.length || testimonial ? <ProjectTestimonial {...testimonial}/> : null}
-      {typeof latestProjects !== "undefined" && latestProjects.length !== 0 ? <LatestProjects textTitle isWidget data={latestProjects} /> : null}
-      <Start/>
+      {promo.length || title ? (
+        <Promo heading={title} {...promo} handleModal={handleModal} />
+      ) : null}
+      {goals.length || goals ? <ProjectDescription {...goals} /> : null}
+      {slider.length || slider ? <ProjectSlider data={slider} /> : null}
+      {solutions.length || solutions ? (
+        <ProjectDescription {...solutions} />
+      ) : null}
+      {stages.length && stages ? <Stages data={stages} /> : null}
+      {technologies.length || technologies ? (
+        <ProjectTechnologies data={technologies} />
+      ) : null}
+      {projectResults.length || projectResults ? (
+        <ProjectResults data={projectResults} />
+      ) : null}
+      {testimonial.length || testimonial ? (
+        <ProjectTestimonial {...testimonial} />
+      ) : null}
+      {typeof latestProjects !== "undefined" && latestProjects.length !== 0 ? (
+        <LatestProjects textTitle isWidget data={latestProjects} />
+      ) : null}
+      <Start />
     </Fragment>
   );
 };
 
-const Project = ({data, handleModal}) => {
+const Project = ({ data, handleModal }) => {
   const project = data.projects.frontmatter;
-  const latestProjectsData = data.latestProjects.edges.map(item => item.node.frontmatter).filter(item => item.title !== project.title).slice(0, 2);
+  const latestProjectsData = data.latestProjects.edges
+    .map(item => item.node.frontmatter)
+    .filter(item => item.title !== project.title)
+    .slice(0, 2);
 
   return (
     <ProjectTemplate
@@ -77,9 +91,7 @@ export default Project;
 
 export const projectQuery = graphql`
   query ProjectByID($id: String!) {
-    projects: markdownRemark(
-    id: { eq: $id }
-    ) {
+    projects: markdownRemark(id: { eq: $id }) {
       frontmatter {
         meta {
           pageTitle
@@ -133,11 +145,11 @@ export const projectQuery = graphql`
         }
       }
     }
-    latestProjects: allMarkdownRemark (
-      filter: { frontmatter: { templateKey: { eq: "project" } }},
-      sort: { order: DESC, fields: [frontmatter___date] },
+    latestProjects: allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "project" } } }
+      sort: { order: DESC, fields: [frontmatter___date] }
       limit: 3
-     ) {
+    ) {
       edges {
         node {
           frontmatter {
