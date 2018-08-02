@@ -1,6 +1,10 @@
 ---
 templateKey: service
 title: Back-End Development
+meta:
+  metaDescr: Back-End Development
+  metaTitle: Back-End Development
+  pageTitle: Back-End Development
 promo:
   image: /img/backend-big-logo.png
   sub: Unleash the power of your web apps
