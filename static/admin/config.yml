@@ -148,6 +148,23 @@ collections:
       name: title
       widget: string
     -
+      label: 'Page meta info'
+      name: meta
+      widget: object
+      fields:
+      - label: 'Page Title'
+        name: pageTitle
+        widget: string
+        default: 'Default Title'
+      - label: 'Meta Title'
+        name: metaTitle
+        widget: string
+        default: 'Some meta title'
+      - label: 'Meta Description'
+        name: metaDescr
+        widget: text
+        default: 'Some meta description'
+    -
       label: Date
       name: date
       widget: datetime

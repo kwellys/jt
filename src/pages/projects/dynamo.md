@@ -1,6 +1,10 @@
 ---
 templateKey: project
 title: Dynamo
+meta:
+  metaDescr: Front-End Development
+  metaTitle: Front-End Development
+  pageTitle: Front-End Development
 date: '2018-07-19T15:39:40+03:00'
 category: Fintech
 smallDescr: Small description for dynamo project

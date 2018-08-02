@@ -10,10 +10,13 @@ import Start from "../components/Start";
 import Stages from "../components/Stages";
 import ProjectResults from "../components/ProjectResults";
 import LatestProjects from "../components/LatestProjects";
+import {ServiceTemplate} from "./service";
 
 export const ProjectTemplate = ({
+                                  pageTitle,
+                                  metaTitle,
+                                  metaDescr,
                                   promo,
-                                  title,
                                   goals,
                                   slider,
                                   testimonial,
@@ -26,7 +29,11 @@ export const ProjectTemplate = ({
                                 }) => {
   return (
     <Fragment>
-      <Helmet title={`${title} | Project`}/>
+      <Helmet>
+        <title>{`${pageTitle} | Project`}</title>
+        <meta name="title" content={metaTitle} />
+        <meta name="description" content={metaDescr} />
+      </Helmet>
       {promo.length || title ? <Promo heading={title} {...promo} handleModal={handleModal}/> : null}
       {goals.length || goals ? <ProjectDescription {...goals}/> : null}
       {slider.length || slider ? <ProjectSlider data={slider}/> : null}
@@ -47,7 +54,9 @@ const Project = ({data, handleModal}) => {
 
   return (
     <ProjectTemplate
-      title={project.title}
+      pageTitle={project.meta.pageTitle}
+      metaTitle={project.meta.metaTitle}
+      metaDescr={project.meta.metaDescr}
       promo={project.promo}
       goals={project.goals}
       slider={project.slider}
@@ -70,7 +79,11 @@ export const projectQuery = graphql`
     id: { eq: $id }
     ) {
       frontmatter {
-        title
+        meta {
+          pageTitle
+          metaTitle
+          metaDescr
+        }
         promo {
           sub
           link

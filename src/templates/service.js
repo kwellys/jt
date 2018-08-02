@@ -6,12 +6,11 @@ import FeaturedTech from "../components/FeaturedTech";
 import Start from "../components/Start";
 import ProjectTechnologies from "../components/ProjectTechnologies";
 import LatestProjects from "../components/LatestProjects";
-import {IndexPageTemplate} from "./index-page";
 
 export const ServiceTemplate = ({
-                                  pageTitle,
-                                  metaTitle,
-                                  metaDescr,
+  pageTitle,
+  metaTitle,
+  metaDescr,
   promo,
   features,
   featuredTech,
