@@ -1,6 +1,10 @@
 ---
 templateKey: service
 title: Quality assurance
+meta:
+  metaDescr: Quality assurance
+  metaTitle: Quality assurance
+  pageTitle: Quality assurance
 promo:
   image: /img/qa-big-logo.png
   sub: We assure the quality of your projects

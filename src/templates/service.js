@@ -6,9 +6,12 @@ import FeaturedTech from "../components/FeaturedTech";
 import Start from "../components/Start";
 import ProjectTechnologies from "../components/ProjectTechnologies";
 import LatestProjects from "../components/LatestProjects";
+import {IndexPageTemplate} from "./index-page";
 
 export const ServiceTemplate = ({
-  title,
+                                  pageTitle,
+                                  metaTitle,
+                                  metaDescr,
   promo,
   features,
   featuredTech,
@@ -18,7 +21,11 @@ export const ServiceTemplate = ({
 }) => {
   return (
     <Fragment>
-      <Helmet title={`${title} | Service`} />
+      <Helmet>
+        <title>{`${pageTitle} | Service`}</title>
+        <meta name="title" content={metaTitle} />
+        <meta name="description" content={metaDescr} />
+      </Helmet>
       {promo.length !== 0 || promo ? (
         <Promo
           bigLogo={promo.image}
@@ -51,7 +58,9 @@ const Service = ({ data, handleModal }) => {
 
   return (
     <ServiceTemplate
-      title={service.title}
+      pageTitle={service.meta.pageTitle}
+      metaTitle={service.meta.metaTitle}
+      metaDescr={service.meta.metaDescr}
       promo={service.promo}
       features={service.features}
       featuredTech={service.featuredTech}
@@ -70,7 +79,11 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        title
+        meta {
+          pageTitle
+          metaTitle
+          metaDescr
+        }
         promo {
           image
           sub

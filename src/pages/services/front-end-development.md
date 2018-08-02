@@ -1,6 +1,10 @@
 ---
 templateKey: service
 title: Front-End Development
+meta:
+  metaDescr: Front-End Development
+  metaTitle: Front-End Development
+  pageTitle: Front-End Development
 promo:
   image: /img/frontend-big-logo.png
   sub: Great performance on any device

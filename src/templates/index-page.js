@@ -15,20 +15,26 @@ import LatestProjects from "../components/LatestProjects";
 import Industries from "../components/Industries";
 
 export const IndexPageTemplate = ({
-                                    title,
-                                    promo,
-                                    features,
-                                    services,
-                                    technologies,
-                                    sortedProjects,
-                                    testimonials,
-                                    why,
-                                    geography,
-                                    companyandteam,
-                                    handleModal
-                                  }) => (
+  pageTitle,
+  metaTitle,
+  metaDescr,
+  promo,
+  features,
+  services,
+  technologies,
+  sortedProjects,
+  testimonials,
+  why,
+  geography,
+  companyandteam,
+  handleModal
+}) => (
   <Fragment>
-    <Helmet title="JetTechnical | We bring your web projects to life" />
+    <Helmet>
+      <title>{pageTitle}</title>
+      <meta name="title" content={metaTitle} />
+      <meta name="description" content={metaDescr} />
+    </Helmet>
     <Promo {...promo} handleModal={handleModal} />
     <FeaturesList data={features} />
     <Industries />
@@ -46,10 +52,15 @@ export const IndexPageTemplate = ({
 
 const IndexPage = ({ data, handleModal }) => {
   const index = data.index.frontmatter;
-  const latestProjectsData = data.latestProjects.edges.map(item => item.node.frontmatter);
+  const latestProjectsData = data.latestProjects.edges.map(
+    item => item.node.frontmatter
+  );
 
   return (
     <IndexPageTemplate
+      pageTitle={index.meta.pageTitle}
+      metaTitle={index.meta.metaTitle}
+      metaDescr={index.meta.metaDescr}
       promo={index.promo}
       features={index.features}
       services={index.services}
@@ -61,15 +72,20 @@ const IndexPage = ({ data, handleModal }) => {
       sortedProjects={latestProjectsData}
       handleModal={handleModal}
     />
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const indexPageQuery = graphql`
   query IndexPage($id: String!) {
     index: markdownRemark(id: { eq: $id }) {
       frontmatter {
+        meta {
+          pageTitle
+          metaTitle
+          metaDescr
+        }
         promo {
           image
           descr
@@ -131,11 +147,11 @@ export const indexPageQuery = graphql`
         }
       }
     }
-    latestProjects: allMarkdownRemark (
-      sort: { order: DESC, fields: [frontmatter___date] },
-      filter: { frontmatter: { templateKey: { eq: "project" } }},
+    latestProjects: allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { frontmatter: { templateKey: { eq: "project" } } }
       limit: 3
-     ){
+    ) {
       edges {
         node {
           frontmatter {
@@ -148,4 +164,4 @@ export const indexPageQuery = graphql`
       }
     }
   }
-`
+`;

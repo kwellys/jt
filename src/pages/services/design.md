@@ -1,6 +1,10 @@
 ---
 templateKey: service
 title: Design
+meta:
+  metaDescr: Design
+  metaTitle: Design
+  pageTitle: Design
 promo:
   image: /img/design-big-logo.png
   sub: The beauty of function
