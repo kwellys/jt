@@ -13,6 +13,7 @@ import LatestProjects from "../components/LatestProjects";
 import {ServiceTemplate} from "./service";
 
 export const ProjectTemplate = ({
+                                  title,
                                   pageTitle,
                                   metaTitle,
                                   metaDescr,
@@ -57,7 +58,7 @@ const Project = ({data, handleModal}) => {
       pageTitle={project.meta.pageTitle}
       metaTitle={project.meta.metaTitle}
       metaDescr={project.meta.metaDescr}
-      titlt={project.titlt}
+      title={project.title}
       promo={project.promo}
       goals={project.goals}
       slider={project.slider}
