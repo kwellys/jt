@@ -93,6 +93,7 @@ export const projectQuery = graphql`
   query ProjectByID($id: String!) {
     projects: markdownRemark(id: { eq: $id }) {
       frontmatter {
+        title
         meta {
           pageTitle
           metaTitle
