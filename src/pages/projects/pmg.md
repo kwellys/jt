@@ -28,7 +28,9 @@ solutions:
       projects, clients, hardware, and employees. We also had to develop a
       system for reporting.
   title: Scope
-stages: []
+stages:
+  - isComplete: true
+    stageDetails: Test
 technologies:
   - image: /img/Redux.png
 projectResults:
