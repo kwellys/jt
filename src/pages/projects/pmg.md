@@ -8,7 +8,7 @@ meta:
 date: '2018-07-19T15:39:00+03:00'
 category: Booking & Event Platforms
 smallDescr: Vegetation control and environmental protection
-preview: /img/Figma.png
+preview: /img/снимок-экрана-2018-08-22-в-19.18.47.png
 promo:
   link: pmgvegetation.com
   sub: Vegetation control and environmental protection
@@ -20,7 +20,7 @@ goals:
     rightCol: '*'
   title: About the project
 slider:
-  - img: /img/6007f3d5001649f81139c1c0fcda5f51-2-.png
+  - img: /img/снимок-экрана-2018-08-22-в-19.18.47.png
 solutions:
   descr:
     leftCol: >-
