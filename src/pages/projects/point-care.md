@@ -21,6 +21,7 @@ goals:
       terms: insurance companies get an automatic system for analytics,
       reporting, and selection of insurance programs; clients get the most
       profitable insurance programs.
+    rightCol: '12312312312312312321321312'
   title: About the project
 slider:
   - img: /img/6007f3d5001649f81139c1c0fcda5f51-2-.png
@@ -31,6 +32,7 @@ solutions:
       Release Frontend according to wireframes and style guide, make it fully
       responsive. Create a poll with more than 50 questions, on the basis of
       which the system will automatically select the type of insurance.
+    rightCol: '12312312312312312321321312'
   title: Scope
 stages:
   - isComplete: true
