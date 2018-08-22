@@ -1,11 +1,12 @@
 import React from "react";
 import Link from 'gatsby-link'
 import { kebabCase } from 'lodash'
+import slugify from 'slugify';
 import "./styles.scss";
 import Title from "../../assets/images/titles/Projects.png";
 
 const Project = ({slider, title}) => (
-  <Link to={`/projects/${kebabCase(title)}`} className="projects__article">
+  <Link to={`/projects/${slugify(title, {lower: true})}`} className="projects__article">
     <img src={slider[0].img} alt={title}/>
     <div className="projects__descr">
       <h3 className="projects__heading">{title}</h3>

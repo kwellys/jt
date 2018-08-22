@@ -1,14 +1,15 @@
 import React, {Component} from "react";
 import Link from "gatsby-link";
 import {kebabCase} from 'lodash';
+import slugify from 'slugify';
 import "./styles.scss";
 
 const NavigationSublist = ({ sublist, link, isOpen, clickHandler }) => (
   <ul className={isOpen ? "main-nav__sublist main-nav__sublist--opened" : "main-nav__sublist"}>
     {sublist.map(element => (
-      <li key={kebabCase(element.title)} onClick={clickHandler} className="main-nav__subitem">
+      <li key={slugify(element.title, {lower: true})} onClick={clickHandler} className="main-nav__subitem">
         <Link
-          to={`/${link}/${kebabCase(element.title)}`}
+          to={`/${link}/${slugify(element.title, {lower: true})}`}
           className="main-nav__sublink"
         >
           {element.title}

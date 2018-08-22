@@ -2,10 +2,11 @@ import React from "react";
 import Link from 'gatsby-link'
 import { kebabCase } from 'lodash';
 import "./styles.scss";
+import slugify from "slugify";
 
 const Project = ({ preview, title, smallDescr, category }) => (
   <li className="project-list__item">
-    <Link to={`/projects/${kebabCase(title)}`} className="project-list__link">
+    <Link to={`/projects/${slugify(title, {lower: true})}`} className="project-list__link">
       <span className="project-list__image-container">
         <img
           src={preview}
