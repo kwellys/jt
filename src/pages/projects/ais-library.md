@@ -28,7 +28,9 @@ solutions:
       was to finish the application, fix bugs, increase speed and performance,
       rewrite non-working code and finish frontend.
   title: Scope
-stages: []
+stages:
+  - isComplete: true
+    stageDetails: Test
 technologies:
   - image: /img/SoapUI.png
 projectResults:
