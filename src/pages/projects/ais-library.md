@@ -44,11 +44,12 @@ projectResults:
       icon: /img/team.png
       title: Team
     - descr: May 2017 — September 2017
+      icon: /img/Time.png
       title: Time
 testimonial:
   description: Need feedback
   person:
-    image: /img/Figma.png
+    image: /img/1.jpg
     name: Name
     occupation: Position
 ---
