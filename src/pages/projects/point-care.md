@@ -32,7 +32,9 @@ solutions:
       responsive. Create a poll with more than 50 questions, on the basis of
       which the system will automatically select the type of insurance.
   title: Scope
-stages: []
+stages:
+  - isComplete: true
+    stageDetails: Test
 technologies:
   - image: /img/Redux.png
 projectResults:
