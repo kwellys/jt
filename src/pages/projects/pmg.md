@@ -17,6 +17,7 @@ goals:
     leftCol: >-
       PMG provides industry grade vegetation control solutions and helps its
       customers comply with environmental regulation.
+    rightCol: '12312312312312312321321312'
   title: About the project
 slider:
   - img: /img/6007f3d5001649f81139c1c0fcda5f51-2-.png
@@ -27,6 +28,7 @@ solutions:
       fertilizers, and serviced areas. Plus client needed a system to manage
       projects, clients, hardware, and employees. We also had to develop a
       system for reporting.
+    rightCol: '12312312312312312321321312'
   title: Scope
 stages:
   - isComplete: true
