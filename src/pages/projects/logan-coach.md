@@ -20,7 +20,7 @@ goals:
       custom trailers. After 30 years in business, the company has a wide
       network of dealerships and a reputation of a reliable producer of unique
       mobile homes.
-    rightCol: '12312312312312312321321312'
+    rightCol: '*'
   title: About the project
 slider:
   - img: /img/6007f3d5001649f81139c1c0fcda5f51-2-.png
@@ -33,7 +33,7 @@ solutions:
       factory, production status is displayed in the system. Web application
       also allowed to maintain customer database, statistics on produced and
       sold trailers. Apart from that we also had to develop company's web site.
-    rightCol: '12312312312312312321321312'
+    rightCol: '*'
   title: Scope
 stages:
   - isComplete: true
