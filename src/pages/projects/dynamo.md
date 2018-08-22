@@ -1,97 +1,73 @@
 ---
 templateKey: project
-title: Dynamo
+title: Primary Intelligence
 meta:
-  metaDescr: Front-End Development
-  metaTitle: Front-End Development
-  pageTitle: Front-End Development
+  metaDescr: Primary Intelligence
+  metaTitle: Primary Intelligence
+  pageTitle: Primary Intelligence
 date: '2018-07-19T15:39:40+03:00'
 category: Fintech
 smallDescr: Small description for dynamo project
 preview: /img/Figma.png
 promo:
-  link: Dynamo.com
-  sub: >-
-    Dynamo — удобная онлайн-платформа для переоформления ипотечного кредита. С
-    помощью сервиса пользователи могут перекредитовать текущую ипотеку и взять
-    новую на улучшенных условиях. 
+  link: primary-intel.com
+  sub: 'Business analytics, marketing research and competitive analysis'
 goals:
   descr:
     leftCol: >-
-      Нужно было разработать и протестировать платформу, которая автоматизирует
-      процесс переоформления ипотечного кредита на более выгодных условиях для
-      клиента. При этом проект Dynamo разделен на 3 основные части: Website,
-      Customer Portal, Middleoffice.
-    rightCol: >-
-      Website — информационная часть, с калькулятором для расчета выплат по
-      ипотечному кредиту в случае переоформления.
-
-      Customer Portal — сбор сведений с пользователя, который хочет оформить
-      ипотеку 
-
-      Middleoffice — платформа для брокеров
-  title: Client’s goals
+      Primary intelligence provides analytics, polls and marketing research to
+      help its clients grow sales and revenue. It works with B2B clients form
+      more than 35 different industries including Software, Financial Services,
+      Healthcare. Major clients of Primary Intelligence are HP, Zendesk, Adobe,
+      Boeing, Dell, IBM, Oracle, Philips, Ricoh, Siemens and other.
+    rightCol: ''
+  title: About the project
 slider:
   - img: /img/6007f3d5001649f81139c1c0fcda5f51-2-.png
 solutions:
   descr:
     leftCol: >-
-      Мы начали проект с нуля и разработали его в соответствии со спецификациями
-      клиента. На данный момент зарелизили все 3 части. Протестировали.
-
-      Одной из основных проблем в проекте было то, что структура базы данных
-      менялась часто, поэтому многое приходилось обновлять. 
-    rightCol: >-
-      Мы не работали над структурой базы данных и изначально не было
-      архитектора. Потом заказчик нанял архитектора по базам данных и проект
-      пришлось сильно изменять, так как изменилась структура.
-  title: Solutions
-stages:
-  - isComplete: true
-    stageDetails: |-
-      Прототип
-      Планирование архитектуры
-      Фронтенд
-  - isComplete: true
-    stageDetails: |-
-      Закрытая Альфа
-      Корпоративный API
-      Анализ UX
-      Построение масштабируемой архитектуры
-      Фронтенд
-  - isComplete: true
-    stageDetails: |-
-      MVP
-      Улучшение дизайна
-      Масштабируемая инфраструктура
-      Фронтенд
+      Increase speed of the TruVoice application (complex system for analysis of
+      big volumes of clients business data). Reorganize database, rebuild
+      project form .NET to Node.js.
+    rightCol: ''
+  title: Scope
+stages: []
 technologies:
   - image: /img/nodejs.jpg
     name: Node.JS
 projectResults:
-  descr: >
-    Выпустили первую версию в релиз, работаем над второй. Сделали основной
-    функционал. Приобрели экспертизу в TypeScript на бэкенд, в сторонних
-    сервисах Azure Storage, MailChimp, Mandrill, Zendesk и Onfido.
+  descr: >-
+    In 3 years we managed to completely rebuild the system on Node.js. Updated
+    the old version of TruVoice application and released a brand new version
+    with modern design, updated and optimized basic functionality and tons of
+    new features. Created new, adaptive, intuitive and fast Dashboard, that
+    displays basic information and analytics for each interview. Developed
+    massive, convenient and fully-customizable reporting system.
+
+    We have built several modules for analysis of the company’s business data
+    about customer relations. Added system for viewing and editing information
+    about each interview with the client’s basic analytics block. Implemented
+    new big module builder with custom interviews, polls, templates and
+    different types of QnA. Developed 2 additional products for working with
+    questionnaires, poll answers, and online interviews.
+
+    Work was organized according to agile methodology.
   results:
     - descr: |-
-        2 Back-end developers
-        3 Front-end developers
+        5 Back-end developers
+        2 Front-end developers
         2 QA
       icon: /img/team.png
       title: Team
-    - descr: 1.08.2017 — now
+    - descr: February 2015 — now
       icon: /img/Time.png
       title: Time
 testimonial:
-  description: >-
-    “Our product at PointCare was in need of a major design transformation
-    essentially converting the desigTechnical remained very committed to
-    stabilizing the product over 3 major releases and remained fair and
-    conscientious on the affordability of their services throughout.”
+  description: Need feedback
   person:
     image: /img/Time.png
-    name: Matthew Donohoe
-    occupation: Project Manager
+    name: Name
+    occupation: Position
 ---
 
