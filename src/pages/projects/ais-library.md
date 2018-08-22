@@ -18,7 +18,7 @@ goals:
       it is possible to store documents and employees personal files and set
       access to certain documents, depending on employee’s access level or
       workgroup.
-    rightCol: '12312312312312312321321312'
+    rightCol: '*'
   title: About the project
 slider:
   - img: /img/6007f3d5001649f81139c1c0fcda5f51-2-.png
