@@ -6,7 +6,7 @@ meta:
   metaTitle: Primary Intelligence
   pageTitle: Primary Intelligence
 date: '2018-07-19T15:39:40+03:00'
-category: Fintech
+category: Enterprise Solution
 smallDescr: Small description for dynamo project
 preview: /img/Figma.png
 promo:
