@@ -32,7 +32,9 @@ solutions:
       project form .NET to Node.js.
     rightCol: ''
   title: Scope
-stages: []
+stages:
+  - isComplete: true
+    stageDetails: Test
 technologies:
   - image: /img/nodejs.jpg
     name: Node.JS
