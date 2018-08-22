@@ -18,6 +18,7 @@ goals:
       it is possible to store documents and employees personal files and set
       access to certain documents, depending on employee’s access level or
       workgroup.
+    rightCol: '12312312312312312321321312'
   title: About the project
 slider:
   - img: /img/6007f3d5001649f81139c1c0fcda5f51-2-.png
@@ -27,6 +28,7 @@ solutions:
       We started working on the project when it was 65% ready so our main task
       was to finish the application, fix bugs, increase speed and performance,
       rewrite non-working code and finish frontend.
+    rightCol: '12312312312312312321321312'
   title: Scope
 stages:
   - isComplete: true
