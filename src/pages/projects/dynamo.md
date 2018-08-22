@@ -7,7 +7,7 @@ meta:
   pageTitle: Primary Intelligence
 date: '2018-07-19T15:39:40+03:00'
 category: Enterprise Solution
-smallDescr: Small description for dynamo project
+smallDescr: 'Business analytics, marketing research and competitive analysis'
 preview: /img/Figma.png
 promo:
   link: primary-intel.com
