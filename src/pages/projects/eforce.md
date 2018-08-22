@@ -32,8 +32,7 @@ solutions:
       there is a match, the responsible manager is notified that the item is
       wanted.
   title: Scope
-stages:
-  - {}
+stages: []
 technologies:
   - image: /img/angular.jpg
 projectResults:
