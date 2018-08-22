@@ -36,7 +36,7 @@ stages:
   - isComplete: true
     stageDetails: Test
 technologies:
-  - image: /img/nodejs.jpg
+  - image: /img/SoapUI.png
     name: Node.JS
 projectResults:
   descr: >-
