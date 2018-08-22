@@ -8,7 +8,7 @@ meta:
 date: '2018-07-19T15:39:40+03:00'
 category: Enterprise Solution
 smallDescr: 'Business analytics, marketing research and competitive analysis'
-preview: /img/Figma.png
+preview: /img/снимок-экрана-2018-08-22-в-19.25.46.png
 promo:
   link: primary-intel.com
   sub: 'Business analytics, marketing research and competitive analysis'
@@ -23,7 +23,7 @@ goals:
     rightCol: '*'
   title: About the project
 slider:
-  - img: /img/6007f3d5001649f81139c1c0fcda5f51-2-.png
+  - img: /img/снимок-экрана-2018-08-22-в-19.25.46.png
 solutions:
   descr:
     leftCol: >-
