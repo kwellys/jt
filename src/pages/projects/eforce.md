@@ -21,7 +21,7 @@ goals:
 
       ePawnShop — is an inventory system for pawn shops that synchronizes with
       Police department’s databases.
-    rightCol: '12312312312312312321321312'
+    rightCol: '*'
   title: About the project
 slider:
   - img: /img/6007f3d5001649f81139c1c0fcda5f51-2-.png
@@ -32,7 +32,7 @@ solutions:
       Police department’s database and check if new pawned items are stolen. If
       there is a match, the responsible manager is notified that the item is
       wanted.
-    rightCol: '12312312312312312321321312'
+    rightCol: '*'
   title: Scope
 stages:
   - isComplete: true
