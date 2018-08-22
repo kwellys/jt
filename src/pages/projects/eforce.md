@@ -8,7 +8,7 @@ meta:
 date: '2018-07-19T15:39:00+03:00'
 category: Enterprise Solution
 smallDescr: Pawnshop inventory system
-preview: /img/Figma.png
+preview: /img/professional-data-entry-interfaces.png
 promo:
   link: eforcesoftware.com
   sub: Pawnshop inventory system
@@ -24,7 +24,7 @@ goals:
     rightCol: '*'
   title: About the project
 slider:
-  - img: /img/6007f3d5001649f81139c1c0fcda5f51-2-.png
+  - img: /img/professional-data-entry-interfaces.png
 solutions:
   descr:
     leftCol: >-
