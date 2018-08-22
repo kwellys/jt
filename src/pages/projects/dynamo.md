@@ -20,7 +20,7 @@ goals:
       more than 35 different industries including Software, Financial Services,
       Healthcare. Major clients of Primary Intelligence are HP, Zendesk, Adobe,
       Boeing, Dell, IBM, Oracle, Philips, Ricoh, Siemens and other.
-    rightCol: ''
+    rightCol: '12312312312312312321321312'
   title: About the project
 slider:
   - img: /img/6007f3d5001649f81139c1c0fcda5f51-2-.png
@@ -30,7 +30,7 @@ solutions:
       Increase speed of the TruVoice application (complex system for analysis of
       big volumes of clients business data). Reorganize database, rebuild
       project form .NET to Node.js.
-    rightCol: ''
+    rightCol: '12312312312312312321321312'
   title: Scope
 stages:
   - isComplete: true
