@@ -33,7 +33,9 @@ solutions:
       also allowed to maintain customer database, statistics on produced and
       sold trailers. Apart from that we also had to develop company's web site.
   title: Scope
-stages: []
+stages:
+  - isComplete: true
+    stageDetails: Test
 technologies:
   - image: /img/Redux.png
 projectResults:
