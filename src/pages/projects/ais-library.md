@@ -28,7 +28,7 @@ solutions:
       We started working on the project when it was 65% ready so our main task
       was to finish the application, fix bugs, increase speed and performance,
       rewrite non-working code and finish frontend.
-    rightCol: '12312312312312312321321312'
+    rightCol: '*'
   title: Scope
 stages:
   - isComplete: true
