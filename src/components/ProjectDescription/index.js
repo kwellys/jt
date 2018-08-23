@@ -12,7 +12,9 @@ const ProjectDescription = ({ descr, title }) => (
     <div className="project-descr__wrapper">
       <h2 className="project-descr__title">{title}</h2>
       <div className="project-descr__columns">
-        {descr ? Object.keys(descr).map(column => <ProjectDescriptionColumn key={descr[column]} column={descr[column]} />) : null}
+        <div className="project-descr__column">
+          <p className="project-descr__descr">{descr}</p>
+        </div>
       </div>
     </div>
   </section>

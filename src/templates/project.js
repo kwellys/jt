@@ -102,9 +102,7 @@ export const projectQuery = graphql`
         }
         goals {
           title
-          descr {
-            leftCol
-          }
+          descr
         }
         slider {
           img
@@ -131,9 +129,7 @@ export const projectQuery = graphql`
         }
         solutions {
           title
-          descr {
-            leftCol
-          }
+          descr
         }
       }
     }
