@@ -13,24 +13,20 @@ promo:
   link: primary-intel.com
   sub: 'Business analytics, marketing research and competitive analysis'
 goals:
-  descr:
-    leftCol: >-
-      Primary intelligence provides analytics, polls and marketing research to
-      help its clients grow sales and revenue. It works with B2B clients form
-      more than 35 different industries including Software, Financial Services,
-      Healthcare. Major clients of Primary Intelligence are HP, Zendesk, Adobe,
-      Boeing, Dell, IBM, Oracle, Philips, Ricoh, Siemens and other.
-    rightCol: '*'
+  descr: >-
+    Primary intelligence provides analytics, polls and marketing research to
+    help its clients grow sales and revenue. It works with B2B clients form more
+    than 35 different industries including Software, Financial Services,
+    Healthcare. Major clients of Primary Intelligence are HP, Zendesk, Adobe,
+    Boeing, Dell, IBM, Oracle, Philips, Ricoh, Siemens and other.
   title: About the project
 slider:
   - img: /img/снимок-экрана-2018-08-22-в-19.25.46.png
 solutions:
-  descr:
-    leftCol: >-
-      Increase speed of the TruVoice application (complex system for analysis of
-      big volumes of clients business data). Reorganize database, rebuild
-      project form .NET to Node.js.
-    rightCol: '*'
+  descr: >-
+    Increase speed of the TruVoice application (complex system for analysis of
+    big volumes of clients business data). Reorganize database, rebuild project
+    form .NET to Node.js.
   title: Scope
 stages:
   - isComplete: true
