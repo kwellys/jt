@@ -26,6 +26,9 @@ solutions:
     projects, clients, hardware, and employees. We also had to develop a system
     for reporting.
   title: Scope
+  featuresList:
+    - img: /img/Cloud.png
+      title: '123'
 stages:
   - isComplete: true
     stageDetails: Test

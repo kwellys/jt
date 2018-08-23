@@ -30,6 +30,9 @@ solutions:
     allowed to maintain customer database, statistics on produced and sold
     trailers. Apart from that we also had to develop company's web site.
   title: Scope
+  featuresList:
+    - img: /img/Cloud.png
+      title: '123'
 stages:
   - isComplete: true
     stageDetails: Test

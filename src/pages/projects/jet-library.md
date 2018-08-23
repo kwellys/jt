@@ -26,6 +26,9 @@ solutions:
     to finish the application, fix bugs, increase speed and performance, rewrite
     non-working code and finish frontend.
   title: Scope
+  featuresList:
+    - img: /img/Cloud.png
+      title: '123'
 stages:
   - isComplete: true
     stageDetails: Test

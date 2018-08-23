@@ -30,6 +30,9 @@ solutions:
     responsive. Create a poll with more than 50 questions, on the basis of which
     the system will automatically select the type of insurance.
   title: Scope
+  featuresList:
+    - img: /img/Cloud.png
+      title: '123'
 stages:
   - isComplete: true
     stageDetails: Test

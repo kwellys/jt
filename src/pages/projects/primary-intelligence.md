@@ -28,6 +28,9 @@ solutions:
     big volumes of clients business data). Reorganize database, rebuild project
     form .NET to Node.js.
   title: Scope
+  featuresList:
+    - img: /img/Cloud.png
+      title: '123'
 stages:
   - isComplete: true
     stageDetails: Test
