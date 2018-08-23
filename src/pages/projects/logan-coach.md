@@ -14,26 +14,21 @@ promo:
   link: logancoach.com
   sub: Custom trailers
 goals:
-  descr:
-    leftCol: >-
-      One of the largest US companies that specialize in the production of
-      custom trailers. After 30 years in business, the company has a wide
-      network of dealerships and a reputation of a reliable producer of unique
-      mobile homes.
-    rightCol: '*'
+  descr: >-
+    One of the largest US companies that specialize in the production of custom
+    trailers. After 30 years in business, the company has a wide network of
+    dealerships and a reputation of a reliable producer of unique mobile homes.
   title: About the project
 slider:
   - img: /img/снимок-экрана-2018-08-22-в-19.12.39.png
 solutions:
-  descr:
-    leftCol: >-
-      Logan Coach needed to develop a system that would allow to create orders
-      with custom trailer configuration, add customer preferences and provide
-      final estimate. After the order is confirmed, information is sent to the
-      factory, production status is displayed in the system. Web application
-      also allowed to maintain customer database, statistics on produced and
-      sold trailers. Apart from that we also had to develop company's web site.
-    rightCol: '*'
+  descr: >-
+    Logan Coach needed to develop a system that would allow to create orders
+    with custom trailer configuration, add customer preferences and provide
+    final estimate. After the order is confirmed, information is sent to the
+    factory, production status is displayed in the system. Web application also
+    allowed to maintain customer database, statistics on produced and sold
+    trailers. Apart from that we also had to develop company's web site.
   title: Scope
 stages:
   - isComplete: true
