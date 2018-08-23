@@ -53,7 +53,7 @@ const Service = ({ data, handleModal }) => {
   const service = data.service.frontmatter;
   const latestProjectsData = data.latestProjects.edges;
 
-  const allProjects = latestProjectsData.map(item => item.node.frontmatter);
+  const allProjects = latestProjectsData.map(item => item.node);
 
   return (
     <ServiceTemplate
@@ -72,7 +72,7 @@ const Service = ({ data, handleModal }) => {
 
 export default Service;
 
-export const pageQuery = graphql`
+export const serviceQuery = graphql`
   query ServiceByID($id: String!) {
     service: markdownRemark(id: { eq: $id }) {
       id
@@ -116,12 +116,8 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          frontmatter {
-            templateKey
-            title
-            slider {
-              img
-            }
+          fields {
+            slug
           }
         }
       }

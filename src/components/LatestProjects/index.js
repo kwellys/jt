@@ -1,7 +1,5 @@
 import React from "react";
 import Link from 'gatsby-link'
-import { kebabCase } from 'lodash'
-import slugify from 'slugify';
 import "./styles.scss";
 import Title from "../../assets/images/titles/Projects.png";
 
@@ -22,7 +20,6 @@ const LatestProjects = ({
                         }) => {
   return (
     <section className={isWidget ? "projects projects--two" : "projects"}>
-      {console.log(data)}
       <div className="projects__wrapper">
         {!textTitle ? (
           <h2 className="projects__title">
@@ -49,17 +46,6 @@ const LatestProjects = ({
       </div>
     </section>
   );
-};
-
-LatestProjects.defaultProps = {
-  isWidget: false,
-  textTitle: '',
-  data: [{
-    title: 'Project Title',
-    slider: [{
-      img: null
-    }]
-  }]
 };
 
 export default LatestProjects;
