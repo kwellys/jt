@@ -158,12 +158,12 @@ why:
     image: /img/Warranty.png
     title: Warranty
 geography:
-  - company: JTC JetTech
-    link: smt.com
-    logo: /img/html5.jpg
+  - company: JET Library
+    link: jt.aisnovations.com/projects/jet-library
+    logo: /img/1.svg
     position:
-      left: '27.75'
-      top: '25.5'
+      left: '25.70'
+      top: '24.5'
   - company: Some Company
     position:
       left: '25.75'
