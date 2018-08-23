@@ -2,7 +2,7 @@
 templateKey: project
 title: JET Library
 meta:
-  metaDescr: JET Library
+  metaDescr: JET Libraryy
   metaTitle: JET Library
   pageTitle: JET Library
 date: '2018-07-19T15:39:00+03:00'
