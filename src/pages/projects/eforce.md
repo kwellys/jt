@@ -13,26 +13,22 @@ promo:
   link: eforcesoftware.com
   sub: Pawnshop inventory system
 goals:
-  descr:
-    leftCol: >-
-      eForce — specializes in public safety. The company develops software for
-      law enforcement authorities, courts, correctional facilities and other
-      authorities. 
+  descr: >-
+    eForce — specializes in public safety. The company develops software for law
+    enforcement authorities, courts, correctional facilities and other
+    authorities. 
 
-      ePawnShop — is an inventory system for pawn shops that synchronizes with
-      Police department’s databases.
-    rightCol: '*'
+    PawnShop — is an inventory system for pawn shops that synchronizes with
+    Police department’s databases.
   title: About the project
 slider:
   - img: /img/professional-data-entry-interfaces.png
 solutions:
-  descr:
-    leftCol: >-
-      Develop ePawnShop from scratch. Inventory system should synchronize with
-      Police department’s database and check if new pawned items are stolen. If
-      there is a match, the responsible manager is notified that the item is
-      wanted.
-    rightCol: '*'
+  descr: >-
+    Develop ePawnShop from scratch. Inventory system should synchronize with
+    Police department’s database and check if new pawned items are stolen. If
+    there is a match, the responsible manager is notified that the item is
+    wanted.
   title: Scope
 stages:
   - isComplete: true
