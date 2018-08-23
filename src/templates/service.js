@@ -119,6 +119,10 @@ export const serviceQuery = graphql`
           fields {
             slug
           }
+          frontmatter {
+            title
+            preview
+          }
         }
       }
     }
