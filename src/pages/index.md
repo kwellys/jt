@@ -130,14 +130,18 @@ companyandteam:
     - image: /img/1.jpg
       name: Tamara
       occupation: Head
-    - name: Anna Dreev
-      occupation: Strict meeting
-    - name: Petr Zayc
-      occupation: Strict meeting
-    - name: Ivan Andreev
-      occupation: Strict meeting
-    - name: Anna Dreev
-      occupation: Strict meeting
+    - image: /img/galuza.png
+      name: Sergey Galuza
+      occupation: Head
+    - image: /img/stupak.png
+      name: Vitaly Stupak
+      occupation: Director
+    - image: /img/schebet.png
+      name: Alexander Schebet
+      occupation: CTO
+    - image: /img/yurkevich.png
+      name: Vitali Yurkevich
+      occupation: Customer relations manager
 why:
   - descr: In latest technologies over 80 full-time employees
     image: /img/experts.png
