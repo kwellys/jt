@@ -87,7 +87,7 @@ technologies:
     title: FrontEnd development
 testimonials:
   - company: PointCare
-    features: 'ASP.NET MVC, Microsoft SQL Server'
+    features: ''
     img: /img/1.jpg
     occupation: Project Manager
     personName: Matthew Donohoe
@@ -102,7 +102,7 @@ testimonials:
       and remained fair and conscientious on the affordability of their services
       throughout.
   - company: Ringmaster
-    features: 'Node.js, React'
+    features: ''
     img: /img/1.jpg
     occupation: Head of Operations
     personName: Marija Janjusevic
