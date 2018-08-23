@@ -663,7 +663,7 @@ collections:
           -
             label: 'Y coordinate'
             name: top
-            widget: string  -
+            widget: string
   - name: ind-pages
     label: 'Industries Pages'
     files:
