@@ -5,7 +5,6 @@ import { IndustriesPageTemplate } from "../../templates/ind-page";
 const IndustriesPagePreview = ({ entry }) => {
   const entryPromo = entry.getIn(['data', 'promo']);
   const promo = entryPromo ? entryPromo.toJS() : [];
-  console.log(entry);
 
   return (
     <IndustriesPageTemplate

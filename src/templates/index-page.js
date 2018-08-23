@@ -53,7 +53,7 @@ export const IndexPageTemplate = ({
 const IndexPage = ({ data, handleModal }) => {
   const index = data.index.frontmatter;
   const latestProjectsData = data.latestProjects.edges.map(
-    item => item.node.frontmatter
+    item => item.node
   );
 
   return (
@@ -154,11 +154,12 @@ export const indexPageQuery = graphql`
     ) {
       edges {
         node {
+          fields {
+            slug
+          }
           frontmatter {
             title
-            slider {
-              img
-            }
+            preview
           }
         }
       }

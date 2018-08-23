@@ -28,12 +28,12 @@ class TemplateWrapper extends Component {
   };
 
   getProjects = () => {
-    const projectsData = this.props.data.projects.edges.map(item => item.node.frontmatter);
+    const projectsData = this.props.data.projects.edges.map(item => item.node);
     return projectsData;
   };
 
   getServices = () => {
-    const servicesData = this.props.data.services.edges.map(item => item.node.frontmatter);
+    const servicesData = this.props.data.services.edges.map(item => item.node);
     return servicesData;
   };
 
@@ -98,6 +98,9 @@ export const templateWrapper = graphql`
     projects: allMarkdownRemark (filter: { frontmatter: { templateKey: { eq: "project" } }}) {
       edges {
         node {
+          fields {
+            slug
+          }
           frontmatter {
             title
           }
@@ -107,6 +110,9 @@ export const templateWrapper = graphql`
     services: allMarkdownRemark (filter: { frontmatter: { templateKey: { eq: "service" } }}) {
       edges {
         node {
+          fields {
+            slug
+          }
           frontmatter {
             title
           }

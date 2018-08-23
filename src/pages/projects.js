@@ -9,7 +9,7 @@ export default class ProjectsPage extends Component {
   render () {
     const { data, handleModal } = this.props;
     const { edges: projects } = data.allMarkdownRemark;
-    const allProjects = projects.map(item => item.node.frontmatter);
+    const allProjects = projects.map(item => item.node);
     return (
       <Fragment>
         <Helmet title='Our Projects'/>
@@ -31,6 +31,9 @@ export const projectsQuery = graphql`
     allMarkdownRemark (filter: { frontmatter: { templateKey: { eq: "project" } }})  {
       edges {
         node {
+          fields {
+            slug
+          }
           frontmatter {
             title
             category

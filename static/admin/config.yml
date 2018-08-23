@@ -138,7 +138,6 @@ collections:
     label: Projects
     folder: src/pages/projects
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
     - label: 'Template Key'
       name: templateKey

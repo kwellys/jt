@@ -22,7 +22,6 @@ export const ProjectTemplate = ({
   testimonial,
   technologies,
   projectResults,
-  stages,
   solutions,
   latestProjects,
   handleModal
@@ -42,7 +41,6 @@ export const ProjectTemplate = ({
       {solutions.length || solutions ? (
         <ProjectDescription {...solutions} />
       ) : null}
-      {stages.length && stages ? <Stages data={stages} /> : null}
       {technologies.length || technologies ? (
         <ProjectTechnologies data={technologies} />
       ) : null}
@@ -63,8 +61,8 @@ export const ProjectTemplate = ({
 const Project = ({ data, handleModal }) => {
   const project = data.projects.frontmatter;
   const latestProjectsData = data.latestProjects.edges
-    .map(item => item.node.frontmatter)
-    .filter(item => item.title !== project.title)
+    .map(item => item.node)
+    .filter(item => item.frontmatter.title !== project.title)
     .slice(0, 2);
 
   return (
@@ -79,7 +77,6 @@ const Project = ({ data, handleModal }) => {
       testimonial={project.testimonial}
       technologies={project.technologies}
       projectResults={project.projectResults}
-      stages={project.stages}
       solutions={project.solutions}
       latestProjects={latestProjectsData}
       handleModal={handleModal}
@@ -140,10 +137,6 @@ export const projectQuery = graphql`
             rightCol
           }
         }
-        stages {
-          stageDetails
-          isComplete
-        }
       }
     }
     latestProjects: allMarkdownRemark(
@@ -153,12 +146,13 @@ export const projectQuery = graphql`
     ) {
       edges {
         node {
+          fields {
+            slug
+          }
           frontmatter {
             templateKey
             title
-            slider {
-              img
-            }
+            preview
           }
         }
       }

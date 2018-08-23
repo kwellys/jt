@@ -24,8 +24,8 @@ const IndustriesPage = ({data, handleModal}) => {
   const industriesPage = data.industriesPage.frontmatter;
   const categoryProjects = data.categoryProjects.edges;
 
-  const allPages = categoryProjects.map(item => item.node.frontmatter);
-  const filter = (arg) =>  allPages.filter(item => item.category === arg);
+  const allPages = categoryProjects.map(item => item.node);
+  const filter = (arg) =>  allPages.filter(item => item.frontmatter.category === arg);
 
   return (
     <IndustriesPageTemplate
@@ -57,6 +57,9 @@ export const industriesPageQuery = graphql`
      ){
       edges {
         node {
+          fields {
+            slug
+          }
           frontmatter {
             templateKey
             title
