@@ -29,10 +29,10 @@ solutions:
     Police department’s database and check if new pawned items are stolen. If
     there is a match, the responsible manager is notified that the item is
     wanted.
+  featuresList:
+    - img: /img/Cloud.png
+      title: '123'
   title: Scope
-stages:
-  - isComplete: true
-    stageDetails: Test
 technologies:
   - image: /img/angular.jpg
 projectResults:
