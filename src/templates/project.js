@@ -104,7 +104,6 @@ export const projectQuery = graphql`
           title
           descr {
             leftCol
-            rightCol
           }
         }
         slider {
@@ -134,7 +133,6 @@ export const projectQuery = graphql`
           title
           descr {
             leftCol
-            rightCol
           }
         }
       }

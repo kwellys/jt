@@ -59,10 +59,8 @@
 }
 
 .project-descr__column {
-  width: 39%;
 
   @media (max-width: $tablet-width) {
-    width: 100%;
     margin-bottom: 10px;
 
     &:last-child {
