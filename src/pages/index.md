@@ -164,18 +164,21 @@ geography:
     position:
       left: '25.70'
       top: '24.5'
-  - company: Some Company
+  - company: eForce
+    link: eforcesoftware.com
     position:
-      left: '25.75'
-      top: '35.5'
-  - company: Some Company
+      left: '25.70'
+      top: '26.5'
+  - company: Logan Coach
+    link: logancoach.com
     position:
-      left: '30.75'
-      top: '37.5'
-  - company: Some Company
+      left: '25.70'
+      top: '28.5'
+  - company: PMG
+    link: pmgvegetation.com
     position:
-      left: '29'
-      top: '31.5'
+      left: '25.70'
+      top: '30.5'
   - company: Some Company
     position:
       left: '33'
