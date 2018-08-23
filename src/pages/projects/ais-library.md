@@ -1,10 +1,10 @@
 ---
 templateKey: project
-title: AIS Library
+title: JET Library
 meta:
-  metaDescr: AIS Library
-  metaTitle: AIS Library
-  pageTitle: AIS Library
+  metaDescr: JET Library
+  metaTitle: JET Library
+  pageTitle: JET Library
 date: '2018-07-19T15:39:00+03:00'
 category: Blockchain
 smallDescr: Data storage and workflow automation
@@ -14,7 +14,7 @@ promo:
 goals:
   descr:
     leftCol: >-
-      AIS Library allows automating workflow in any company. In the application,
+      JET Library allows automating workflow in any company. In the application,
       it is possible to store documents and employees personal files and set
       access to certain documents, depending on employee’s access level or
       workgroup.
