@@ -87,32 +87,41 @@ technologies:
     title: FrontEnd development
 testimonials:
   - company: PointCare
-    features: '.NET MVC4, SQL SERVER, JQUERY, AJAX, JSON'
-    img: /img/asp.jpg
+    features: 'ASP.NET MVC, Microsoft SQL Server'
+    img: /img/1.jpg
     occupation: Project Manager
     personName: Matthew Donohoe
     review: >-
       Our product at PointCare was in need of a major design transformation
-      essentially converting the desigTechnical remained very committed to
-      stabilizing the product over 3 major releases and remained fair and
-      conscientious on the affordability of their services throughout.
-  - company: Elements-Media
-    features: PHP PROGRAMMING WEBSITE DEVELOPMENT
-    occupation: Project Manager
-    personName: Lance Moody
+      essentially converting the design from PHP to .NET. Additionally,
+      PointCare’s new model would optimize our content administration and our
+      customer front-end reporting. Jet Technical was able to work with initial
+      designs and subsequently mitigate a high volume of design gaps and change
+      requests inside of an extremely aggressive timeline. Jet Technical
+      remained very committed to stabilizing the product over 3 major releases
+      and remained fair and conscientious on the affordability of their services
+      throughout.
+  - company: Ringmaster
+    features: 'Node.js, React'
+    img: /img/1.jpg
+    occupation: Head of Operations
+    personName: Marija Janjusevic
     review: >-
-      Once again Tamara did an excellent job. She was very responsive to
-      inquiries, and performed high-quality work on time and on budget. I highly
-      recommend her and will hire her again soon.
-  - company: New Health Analytics
-    features: ASP.NET DEVEXPRESS 12.1 DEVELOPMENT
-    occupation: Blue Saki Social Media
+      Always delivering high-quality products, the team regularly receives wide
+      praise from the satisfied end-clients. They are adaptable to a variety of
+      project management tools, while the in-house project management ensures
+      smooth runs. The team learns quickly and always produces excellent code.
+  - company: RBC Life Sciences
+    features: ASP.NET MVC
+    img: /img/1.jpg
+    occupation: IT Application Manager
     personName: Armin Latiff
     review: >-
-      Jet Technical was a great find. Extremely reasonable rates even though
-      based in US and quality of work was excellent. Very professional,
-      technically strong and always available on phone, skype and email. I
-      highly recommend this company to anyone.
+      Their support for the entire IT infrastructure has been invaluable over
+      the years. Their availability regardless of the time difference,
+      reliability, and communication put them in the spotlight. Their
+      competitive prices are hard to beat, though they could invest in creating
+      their own QA department.
 companyandteam:
   description: >-
     We are a team of professionals on a mission to creating a faster, more
