@@ -12,23 +12,19 @@ preview: /img/снимок-экрана-2018-08-22-в-19.14.29.png
 promo:
   sub: Data storage and workflow automation
 goals:
-  descr:
-    leftCol: >-
-      JET Library allows automating workflow in any company. In the application,
-      it is possible to store documents and employees personal files and set
-      access to certain documents, depending on employee’s access level or
-      workgroup.
-    rightCol: '*'
+  descr: >-
+    JET Library allows automating workflow in any company. In the application,
+    it is possible to store documents and employees personal files and set
+    access to certain documents, depending on employee’s access level or
+    workgroup.
   title: About the project
 slider:
   - img: /img/снимок-экрана-2018-08-22-в-19.14.29.png
 solutions:
-  descr:
-    leftCol: >-
-      We started working on the project when it was 65% ready so our main task
-      was to finish the application, fix bugs, increase speed and performance,
-      rewrite non-working code and finish frontend.
-    rightCol: '*'
+  descr: >-
+    We started working on the project when it was 65% ready so our main task was
+    to finish the application, fix bugs, increase speed and performance, rewrite
+    non-working code and finish frontend.
   title: Scope
 stages:
   - isComplete: true
