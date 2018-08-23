@@ -10,6 +10,7 @@ import Start from "../components/Start";
 import Stages from "../components/Stages";
 import ProjectResults from "../components/ProjectResults";
 import LatestProjects from "../components/LatestProjects";
+import FeaturesList from "../components/FeaturesList";
 
 export const ProjectTemplate = ({
   title,
@@ -38,6 +39,9 @@ export const ProjectTemplate = ({
       ) : null}
       {goals.length || goals ? <ProjectDescription {...goals} /> : null}
       {slider.length || slider ? <ProjectSlider data={slider} /> : null}
+      {solutions.length !== 0 || solutions ? (
+        <FeaturesList data={solutions} isInnerPage />
+      ) : null}
       {solutions.length || solutions ? (
         <ProjectDescription {...solutions} />
       ) : null}
@@ -130,6 +134,10 @@ export const projectQuery = graphql`
         solutions {
           title
           descr
+          featuresList {
+            title
+            img
+          }
         }
       }
     }

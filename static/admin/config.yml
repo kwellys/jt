@@ -237,21 +237,17 @@ collections:
         label: Description
         name: descr
         widget: text
-    -
-      label: Stages
-      name: stages
-      widget: list
-      fields:
       -
-        label: 'Stage Details'
-        name: stageDetails
-        widget: text
-        default: 'Some details'
-      -
-        label: 'Stage Is Completed'
-        name: isComplete
-        widget: boolean
-        default: 'true'
+        label: Solution
+        name: featuresList
+        widget: list
+        fields:
+        - label: Title
+          name: title
+          widget: string
+        - label: Image
+          name: img
+          widget: image
     -
       label: 'Used Technologies'
       name: technologies
