@@ -14,25 +14,21 @@ promo:
   link: pointcare.com
   sub: Insurance program aggregator and broker
 goals:
-  descr:
-    leftCol: >-
-      Point Care is an online platform that automatically selects medical
-      insurance plans. It allows all participants to get the most favorable
-      terms: insurance companies get an automatic system for analytics,
-      reporting, and selection of insurance programs; clients get the most
-      profitable insurance programs.
-    rightCol: '*'
+  descr: >-
+    Point Care is an online platform that automatically selects medical
+    insurance plans. It allows all participants to get the most favorable terms:
+    insurance companies get an automatic system for analytics, reporting, and
+    selection of insurance programs; clients get the most profitable insurance
+    programs.
   title: About the project
 slider:
   - img: /img/снимок-экрана-2018-08-22-в-19.24.37.png
 solutions:
-  descr:
-    leftCol: >-
-      Rebuild the entire system, both Backend, and Frontend, from PHP to .NET.
-      Release Frontend according to wireframes and style guide, make it fully
-      responsive. Create a poll with more than 50 questions, on the basis of
-      which the system will automatically select the type of insurance.
-    rightCol: '*'
+  descr: >-
+    Rebuild the entire system, both Backend, and Frontend, from PHP to .NET.
+    Release Frontend according to wireframes and style guide, make it fully
+    responsive. Create a poll with more than 50 questions, on the basis of which
+    the system will automatically select the type of insurance.
   title: Scope
 stages:
   - isComplete: true
