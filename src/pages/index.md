@@ -112,7 +112,7 @@ testimonials:
       project management tools, while the in-house project management ensures
       smooth runs. The team learns quickly and always produces excellent code.
   - company: RBC Life Sciences
-    features: ASP.NET MVC
+    features: ''
     img: /img/1.jpg
     occupation: IT Application Manager
     personName: Armin Latiff
@@ -127,9 +127,9 @@ companyandteam:
     We are a team of professionals on a mission to creating a faster, more
     beautiful and reliable web
   members:
-    - image: /img/Adobe Photoshop.png
-      name: Ivan Andreev
-      occupation: Strict meeting
+    - image: /img/1.jpg
+      name: Tamara
+      occupation: Head
     - name: Anna Dreev
       occupation: Strict meeting
     - name: Petr Zayc
