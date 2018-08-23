@@ -92,15 +92,11 @@ testimonials:
     occupation: Project Manager
     personName: Matthew Donohoe
     review: >-
-      Our product at PointCare was in need of a major design transformation
-      essentially converting the design from PHP to .NET. Additionally,
-      PointCare’s new model would optimize our content administration and our
-      customer front-end reporting. Jet Technical was able to work with initial
-      designs and subsequently mitigate a high volume of design gaps and change
-      requests inside of an extremely aggressive timeline. Jet Technical
-      remained very committed to stabilizing the product over 3 major releases
-      and remained fair and conscientious on the affordability of their services
-      throughout.
+      Jet Technical was able to work with initial designs and subsequently
+      mitigate a high volume of design gaps and change requests inside of an
+      extremely aggressive timeline. Jet Technical remained very committed to
+      stabilizing the product over 3 major releases and remained fair and
+      conscientious on the affordability of their services throughout.
   - company: Ringmaster
     features: ''
     img: /img/1.jpg
