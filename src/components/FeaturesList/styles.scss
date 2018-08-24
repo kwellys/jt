@@ -100,13 +100,17 @@
 }
 
 .features__descr {
-  max-width: 600px;
+  max-width: 70%;
   margin: 0;
   padding: 0;
 
   font-size: 18px;
   line-height: 27px;
   text-align: left;
+
+  @media (max-width: $tablet-width) {
+    max-width: none;
+  }
 }
 
 .features__list {

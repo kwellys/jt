@@ -15,7 +15,7 @@ export const AboutUsTemplate = ({
   return (
     <Fragment>
       <Helmet title={`${title}`}/>
-      {promo.length !== 0 || promo  ? <Promo bigLogo={promo.image} sub={promo.sub}/> : null}
+      {promo.length !== 0 || promo  ? <Promo bigLogo={promo.image} sub={promo.sub} handleModal={handleModal}/> : null}
       <AboutUsBrief {...aboutUs}/>
       {companyandteam.length !== 0 || companyandteam ? <Team {...companyandteam}/> : null}
       <Start />
@@ -56,6 +56,7 @@ export const pageQuery = graphql`
         companyandteam {
           members {
             name
+            image
           }
         }
       }
