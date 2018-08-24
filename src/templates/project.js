@@ -42,9 +42,6 @@ export const ProjectTemplate = ({
       {solutions.length !== 0 || solutions ? (
         <FeaturesList data={solutions} isInnerPage />
       ) : null}
-      {solutions.length || solutions ? (
-        <ProjectDescription {...solutions} />
-      ) : null}
       {technologies.length || technologies ? (
         <ProjectTechnologies data={technologies} />
       ) : null}
