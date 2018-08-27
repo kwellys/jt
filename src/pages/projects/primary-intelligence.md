@@ -32,12 +32,28 @@ solutions:
     big volumes of clients business data). Reorganize database, rebuild project
     form .NET to Node.js.
   featuresList:
-    - img: /img/Cloud.png
-      title: '123'
+    - img: /img/PIIcon1.png
+      title: ''
+    - img: /img/PIIcon2.png
+    - img: /img/PIIcon3.png
   title: Scope
 technologies:
-  - image: /img/SoapUI.png
-    name: Node.JS
+  - image: /img/nodejs.jpg
+    name: Node.js
+  - image: /img/mongo.jpg
+    name: MongoDB
+  - image: /img/Angular 5.png
+    name: Angular 5
+  - image: /img/Bootstrap 3.png
+    name: Bootstrap 3
+  - image: /img/Telerik.png
+    name: Telerik
+  - image: /img/Material Design.png
+    name: Material Design
+  - image: /img/PostmarkAPI.svg
+    name: Postmark API
+  - image: /img/Git.png
+    name: Git
 projectResults:
   descr: >-
     In 3 years we managed to completely rebuild the system on Node.js. Updated
