@@ -34,10 +34,10 @@ solutions:
     there is a match, the responsible manager is notified that the item is
     wanted.
   featuresList:
-    - img: /img/pen.png
+    - img: /img/EforceIcon1.png
       title: ''
-    - img: /img/group-4.1.png
-    - img: /img/group-3.png
+    - img: /img/EforceIcon2.png
+    - img: /img/EforceIcon3.png
   title: Scope
 technologies:
   - image: /img/ASP.NET MVC.png
