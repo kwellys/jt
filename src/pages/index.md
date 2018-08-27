@@ -107,17 +107,17 @@ testimonials:
       praise from the satisfied end-clients. They are adaptable to a variety of
       project management tools, while the in-house project management ensures
       smooth runs. The team learns quickly and always produces excellent code.
-  - company: RBC Life Sciences
+  - company: Digitalwordexchange
     features: ''
     img: /img/1.jpg
-    occupation: IT Application Manager
-    personName: Armin Latiff
+    occupation: Head of business development
+    personName: Alex Haye
     review: >-
-      Their support for the entire IT infrastructure has been invaluable over
-      the years. Their availability regardless of the time difference,
-      reliability, and communication put them in the spotlight. Their
-      competitive prices are hard to beat, though they could invest in creating
-      their own QA department.
+      Jet team did a great job. The issue was that the website that they worked
+      on was coded very poorly by an Indian team. They did the best the could
+      with the time they had. I took a huge loss trying to kick a dead horse.
+      Now, I must rebuild and start from scratch. Best dev team I've ever met!
+      Highly recommend this team.
 companyandteam:
   description: >-
     We are a team of professionals on a mission to creating a faster, more
