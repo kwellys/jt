@@ -50,7 +50,7 @@ technologies:
     name: Telerik
   - image: /img/Material Design.png
     name: Material Design
-  - image: /img/PostmarkAPI.svg
+  - image: /img/postmarkapi.png
     name: Postmark API
   - image: /img/Git.png
     name: Git
