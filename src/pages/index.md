@@ -160,32 +160,37 @@ why:
 geography:
   - company: JET Library
     link: jt.aisnovations.com/projects/jet-library
-    logo: /img/1.svg
+    logo: /img/logojetlibrary.png
     position:
       left: '25.70'
       top: '24.5'
   - company: eForce
     link: eforcesoftware.com
+    logo: /img/logoeforce.png
     position:
-      left: '25.70'
+      left: '25.90'
       top: '26.5'
   - company: Logan Coach
     link: logancoach.com
+    logo: /img/logologancoach.png
     position:
-      left: '25.70'
+      left: '25.80'
       top: '28.5'
   - company: PMG
     link: pmgvegetation.com
+    logo: /img/logopmg.png
     position:
-      left: '25.70'
+      left: '25.60'
       top: '30.5'
-  - company: Some Company
+  - company: Primary Intelligence
+    logo: /img/logopi.png
+    position:
+      left: '25.50'
+      top: '32.5'
+  - company: Point Care
+    logo: /img/logopointcare.png
     position:
       left: '33'
-      top: '32.5'
-  - company: Some Company
-    position:
-      left: '32'
-      top: '27'
+      top: '7.5'
 ---
 
