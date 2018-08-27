@@ -34,11 +34,30 @@ solutions:
     responsive. Create a poll with more than 50 questions, on the basis of which
     the system will automatically select the type of insurance.
   featuresList:
-    - img: /img/Cloud.png
+    - img: /img/PCIcon1.png
       title: ''
+    - img: /img/PCIcon2.png
+    - img: /img/PCIcon3.png
   title: Scope
 technologies:
-  - image: /img/Redux.png
+  - image: /img/ASP.NET MVC4.png
+    name: ASP.NET MVC4
+  - image: /img/Microsoft SQL Server.png
+    name: Microsoft SQL Server
+  - image: /img/HTML.png
+    name: HTML
+  - image: /img/CSS.png
+    name: CSS
+  - image: /img/JavaScript.png
+    name: JavaScript
+  - image: /img/jquerytech.png
+    name: jQuery
+  - image: /img/AJAX.png
+    name: AJAX
+  - image: /img/JSON.png
+    name: JSON
+  - image: /img/amCharts.png
+    name: amCharts
 projectResults:
   descr: >-
     Migrated project to .NET, made fully responsive Frontend. Developed a system
