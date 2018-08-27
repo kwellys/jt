@@ -9,7 +9,7 @@ meta:
 date: '2018-07-19T15:39:00+03:00'
 category: Enterprise Solution
 smallDescr: Insurance program aggregator and broker
-preview: /img/снимок-экрана-2018-08-22-в-19.24.37.png
+preview: /img/PointCare1.png
 promo:
   link: pointcare.com
   sub: Insurance program aggregator and broker
@@ -22,20 +22,21 @@ goals:
     programs.
   title: About the project
 slider:
-  - img: /img/снимок-экрана-2018-08-22-в-19.24.37.png
+  - img: /img/PointCare1.png
+  - img: /img/PointCare2.png
+  - img: /img/PointCare3.png
+  - img: /img/PointCare4.png
+  - img: /img/PointCare5.png
 solutions:
   descr: >-
     Rebuild the entire system, both Backend, and Frontend, from PHP to .NET.
     Release Frontend according to wireframes and style guide, make it fully
     responsive. Create a poll with more than 50 questions, on the basis of which
     the system will automatically select the type of insurance.
-  title: Scope
   featuresList:
     - img: /img/Cloud.png
-      title: '123'
-stages:
-  - isComplete: true
-    stageDetails: Test
+      title: ''
+  title: Scope
 technologies:
   - image: /img/Redux.png
 projectResults:
