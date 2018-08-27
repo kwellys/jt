@@ -41,18 +41,27 @@ solutions:
   title: Scope
 technologies:
   - image: /img/ASP.NET MVC.png
-    name: ''
+    name: ASP.NET MVC
   - image: /img/C Sharp.png
+    name: C Sharp
   - image: /img/Microsoft SQL Server.png
+    name: Microsoft SQL Server
   - image: /img/HTML.png
+    name: HTML
   - image: /img/CSS.png
+    name: CSS
   - image: /img/JavaScript.png
+    name: JavaScript
   - image: /img/jquerytech.png
-    name: ''
-  - image: /img/Bootstrap.png
+    name: jQuery
+  - image: /img/bootstrap.png
+    name: Bootstrap
   - image: /img/Visual Studio.png
-  - image: /img/REST API.png
+    name: Visual Studio
+  - image: /img/rest-api.png
+    name: REST API
   - image: /img/Git.png
+    name: Git
 projectResults:
   descr: >
     Initial scope was just a backbone of the project, but in the end, we
