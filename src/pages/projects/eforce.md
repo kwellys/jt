@@ -8,7 +8,7 @@ meta:
 date: '2018-07-19T15:39:00+03:00'
 category: Enterprise Solution
 smallDescr: Pawnshop inventory system
-preview: /img/professional-data-entry-interfaces.png
+preview: /img/Eforce1.png
 promo:
   link: eforcesoftware.com
   sub: Pawnshop inventory system
