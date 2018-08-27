@@ -40,7 +40,19 @@ solutions:
     - img: /img/group-3.png
   title: Scope
 technologies:
-  - image: /img/Sketch.png
+  - image: /img/ASP.NET MVC.png
+    name: ''
+  - image: /img/C Sharp.png
+  - image: /img/Microsoft SQL Server.png
+  - image: /img/HTML.png
+  - image: /img/CSS.png
+  - image: /img/JavaScript.png
+  - image: /img/jquerytech.png
+    name: ''
+  - image: /img/Bootstrap.png
+  - image: /img/Visual Studio.png
+  - image: /img/REST API.png
+  - image: /img/Git.png
 projectResults:
   descr: >
     Initial scope was just a backbone of the project, but in the end, we
