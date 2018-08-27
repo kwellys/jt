@@ -8,41 +8,47 @@ meta:
 date: '2018-07-19T15:39:00+03:00'
 category: Blockchain
 smallDescr: Data storage and workflow automation
-preview: /img/снимок-экрана-2018-08-22-в-19.14.29.png
+preview: /img/JetLibrary1.png
 promo:
   sub: Data storage and workflow automation
 goals:
   descr: >-
-    JET Library allows automating workflow in any company. In the application,
-    it is possible to store documents and employees personal files and set
-    access to certain documents, depending on employee’s access level or
-    workgroup.
+    JET Library is our own project that allows automating workflow in any
+    company. In the application, it is possible to store documents and employees
+    personal files and set access to certain documents, depending on employee’s
+    access level or workgroup.
   title: About the project
 slider:
-  - img: /img/снимок-экрана-2018-08-22-в-19.14.29.png
+  - img: /img/JetLibrary1.png
+  - img: /img/JetLibrary2.png
+  - img: /img/JetLibrary3.png
+  - img: /img/JetLibrary4.png
+  - img: /img/JetLibrary5.png
 solutions:
   descr: >-
-    We started working on the project when it was 65% ready so our main task was
-    to finish the application, fix bugs, increase speed and performance, rewrite
-    non-working code and finish frontend.
-  title: Scope
+    When we started this project our main goal was to make it scalable. Apart
+    from that we wanted to achieve maximum response speed, which is important
+    when working with large volumes of data. Another important task was to
+    design intuitive and minimalistic interface.
   featuresList:
     - img: /img/Cloud.png
-      title: '123'
-stages:
-  - isComplete: true
-    stageDetails: Test
+      title: ''
+    - img: /img/BackEnd Tech.png
+    - img: /img/FrontEnd Tech.png
+  title: Scope
 technologies:
   - image: /img/SoapUI.png
 projectResults:
   descr: >-
-    In just four months we managed to completely fix all bugs, non-working
-    functions, increase speed and released the product.
+    We closed the project within 5 month. Within this time we developed
+    architecture of the project, design and structure of the database, fixed all
+    occurring bugs and achieved  excellent performance. As a result Jet Library
+    is now used by us and 2 large companies.
   results:
-    - descr: 1 Full Stack Developer
+    - descr: 2 Full Stack Developer
       icon: /img/team.png
       title: Team
-    - descr: May 2017 — September 2017
+    - descr: April 2017 — September 2017
       icon: /img/Time.png
       title: Time
 testimonial:
