@@ -162,35 +162,35 @@ geography:
     link: jt.aisnovations.com/projects/jet-library
     logo: /img/logojetlibrary.png
     position:
-      left: '25.70'
-      top: '24.5'
+      left: '25'
+      top: '24'
   - company: eForce
     link: eforcesoftware.com
     logo: /img/logoeforce.png
     position:
-      left: '25.90'
-      top: '26.5'
+      left: '26.5'
+      top: '24.5'
   - company: Logan Coach
     link: logancoach.com
     logo: /img/logologancoach.png
     position:
-      left: '25.80'
-      top: '28.5'
+      left: '25'
+      top: '27'
   - company: PMG
     link: pmgvegetation.com
     logo: /img/logopmg.png
     position:
-      left: '25.60'
-      top: '30.5'
+      left: '26.5'
+      top: '27.5'
   - company: Primary Intelligence
     logo: /img/logopi.png
     position:
-      left: '25.50'
-      top: '32.5'
+      left: '25.5'
+      top: '30'
   - company: Point Care
     logo: /img/logopointcare.png
     position:
-      left: '33'
-      top: '7.5'
+      left: '7.5'
+      top: '33'
 ---
 
