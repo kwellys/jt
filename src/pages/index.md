@@ -159,7 +159,7 @@ why:
     title: Warranty
 geography:
   - company: JET Library
-    link: jt.aisnovations.com/projects/jet-library
+    link: /projects/jet-library
     logo: /img/logojetlibrary.png
     position:
       left: '25'
@@ -183,11 +183,13 @@ geography:
       left: '26.5'
       top: '27.5'
   - company: Primary Intelligence
+    link: primary-intel.com
     logo: /img/logopi.png
     position:
       left: '25.5'
       top: '30'
   - company: Point Care
+    link: pointcare.com
     logo: /img/logopointcare.png
     position:
       left: '7.5'
