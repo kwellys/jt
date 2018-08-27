@@ -22,7 +22,11 @@ goals:
     Police department’s databases.
   title: About the project
 slider:
-  - img: /img/professional-data-entry-interfaces.png
+  - img: /img/Eforce1.png
+  - img: /img/Eforce2.png
+  - img: /img/Eforce3.png
+  - img: /img/Eforce4.png
+  - img: /img/Eforce5.png
 solutions:
   descr: >-
     Develop ePawnShop from scratch. Inventory system should synchronize with
@@ -36,7 +40,7 @@ solutions:
     - img: /img/group-3.png
   title: Scope
 technologies:
-  - image: /img/angular.jpg
+  - image: /img/Sketch.png
 projectResults:
   descr: >
     Initial scope was just a backbone of the project, but in the end, we
