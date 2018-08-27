@@ -54,7 +54,7 @@ technologies:
     name: jQuery
   - image: /img/AJAX.png
     name: AJAX
-  - image: /img/JSON.png
+  - image: /img/json.png
     name: JSON
   - image: /img/amCharts.png
     name: amCharts
