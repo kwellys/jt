@@ -31,7 +31,9 @@ solutions:
     when working with large volumes of data. Another important task was to
     design intuitive and minimalistic interface.
   featuresList:
-    - {}
+    - img: /img/JETLibraryIcon1.png
+    - img: /img/JETLibraryIcon2.png
+    - img: /img/JETLibraryIcon3.png
   title: Scope
 technologies:
   - image: /img/ASP.NET MVC.png
