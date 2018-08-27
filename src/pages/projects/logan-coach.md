@@ -50,7 +50,7 @@ technologies:
     name: Gulp.js
   - image: /img/bootstrap.png
     name: Bootstrap
-  - image: /img/QuickBooks.png
+  - image: /img/quickbooks.png
     name: QuickBooks
 projectResults:
   descr: >-
