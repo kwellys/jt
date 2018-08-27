@@ -7,7 +7,7 @@ meta:
   metaTitle: Logan Coach
   pageTitle: Logan Coach
 date: '2018-07-19T15:39:00+03:00'
-category: E-commerce
+category: Enterprise Solution
 smallDescr: Custom trailers
 preview: /img/LoganCoach1.png
 promo:
