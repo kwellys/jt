@@ -9,7 +9,7 @@ meta:
 date: '2018-07-19T15:39:00+03:00'
 category: E-commerce
 smallDescr: Custom trailers
-preview: /img/снимок-экрана-2018-08-22-в-19.12.39.png
+preview: /img/LoganCoach1.png
 promo:
   link: logancoach.com
   sub: Custom trailers
@@ -20,7 +20,11 @@ goals:
     dealerships and a reputation of a reliable producer of unique mobile homes.
   title: About the project
 slider:
-  - img: /img/снимок-экрана-2018-08-22-в-19.12.39.png
+  - img: /img/LoganCoach1.png
+  - img: /img/LoganCoach2.png
+  - img: /img/LoganCoach3.png
+  - img: /img/LoganCoach4.png
+  - img: /img/LoganCoach5.png
 solutions:
   descr: >-
     Logan Coach needed to develop a system that would allow to create orders
@@ -29,13 +33,10 @@ solutions:
     factory, production status is displayed in the system. Web application also
     allowed to maintain customer database, statistics on produced and sold
     trailers. Apart from that we also had to develop company's web site.
-  title: Scope
   featuresList:
     - img: /img/Cloud.png
-      title: '123'
-stages:
-  - isComplete: true
-    stageDetails: Test
+      title: ''
+  title: Scope
 technologies:
   - image: /img/Redux.png
 projectResults:
