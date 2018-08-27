@@ -8,7 +8,7 @@ meta:
 date: '2018-07-19T15:39:00+03:00'
 category: Booking & Event Platforms
 smallDescr: Vegetation control and environmental protection
-preview: /img/снимок-экрана-2018-08-22-в-19.18.47.png
+preview: /img/PMG1.png
 promo:
   link: pmgvegetation.com
   sub: Vegetation control and environmental protection
@@ -18,20 +18,21 @@ goals:
     customers comply with environmental regulation.
   title: About the project
 slider:
-  - img: /img/снимок-экрана-2018-08-22-в-19.18.47.png
+  - img: /img/PMG1.png
+  - img: /img/PMG2.png
+  - img: /img/PMG3.png
+  - img: /img/PMG4.png
+  - img: /img/PMG5.png
 solutions:
   descr: >-
     We had to develop an internal inventory system for plants, chemical
     fertilizers, and serviced areas. Plus client needed a system to manage
     projects, clients, hardware, and employees. We also had to develop a system
     for reporting.
-  title: Scope
   featuresList:
     - img: /img/Cloud.png
-      title: '123'
-stages:
-  - isComplete: true
-    stageDetails: Test
+      title: ''
+  title: Scope
 technologies:
   - image: /img/Redux.png
 projectResults:
