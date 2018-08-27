@@ -42,11 +42,11 @@ technologies:
     name: Node.js
   - image: /img/mongo.jpg
     name: MongoDB
-  - image: /img/Angular 5.png
+  - image: /img/angular5.png
     name: Angular 5
-  - image: /img/Bootstrap 3.png
+  - image: /img/bootstrap3.png
     name: Bootstrap 3
-  - image: /img/Telerik.png
+  - image: /img/telerik.png
     name: Telerik
   - image: /img/Material Design.png
     name: Material Design
