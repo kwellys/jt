@@ -38,7 +38,18 @@ solutions:
       title: ''
   title: Scope
 technologies:
-  - image: /img/Redux.png
+  - image: /img/Microsoft SQL Server.png
+    name: Microsoft SQL Server
+  - image: /img/Express.js.png
+    name: Express.js
+  - image: /img/Angular.js.png
+    name: Angular.js
+  - image: /img/Gulp.js.png
+    name: Gulp.js
+  - image: /img/bootstrap.png
+    name: Bootstrap
+  - image: /img/QuickBooks.png
+    name: QuickBooks
 projectResults:
   descr: >-
     Designed and developed clients website. Set up back office system so that
