@@ -124,20 +124,20 @@ companyandteam:
     beautiful and reliable web
   members:
     - image: /img/1.jpg
-      name: Tamara
-      occupation: Head
+      name: Tamara Pattinson
+      occupation: Project Management & Customer Care & CIO
     - image: /img/galuza.png
       name: Sergey Galuza
-      occupation: Head
-    - image: /img/stupak.png
-      name: Vitaly Stupak
-      occupation: Director
+      occupation: Project Management & Senior Developer & CTO
+    - image: /img/1.jpg
+      name: David Tilton
+      occupation: Project Management & Customer Care
     - image: /img/schebet.png
-      name: Alexander Schebet
+      name: Alex Schebet
       occupation: CTO
     - image: /img/yurkevich.png
-      name: Vitali Yurkevich
-      occupation: Customer relations manager
+      name: Nick Bors
+      occupation: Customer Care manager
 why:
   - descr: In latest technologies over 80 full-time employees
     image: /img/experts.png
