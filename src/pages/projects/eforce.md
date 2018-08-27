@@ -56,7 +56,7 @@ technologies:
     name: jQuery
   - image: /img/bootstrap.png
     name: Bootstrap
-  - image: /img/Visual Studio.png
+  - image: /img/visual-studio.png
     name: Visual Studio
   - image: /img/rest-api.png
     name: REST API
