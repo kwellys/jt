@@ -34,8 +34,10 @@ solutions:
     allowed to maintain customer database, statistics on produced and sold
     trailers. Apart from that we also had to develop company's web site.
   featuresList:
-    - img: /img/Cloud.png
+    - img: /img/LoganCoachIcon1.png
       title: ''
+    - img: /img/LoganCoachIcon2.png
+    - img: /img/LoganCoachIcon3.png
   title: Scope
 technologies:
   - image: /img/Microsoft SQL Server.png
