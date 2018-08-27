@@ -50,7 +50,7 @@ technologies:
     name: Bootstrap
   - image: /img/Git.png
     name: Git
-  - image: /img/Pivotal Tracker.png
+  - image: /img/pivotal-tracker.png
     name: Pivotal Tracker
 projectResults:
   descr: >-
