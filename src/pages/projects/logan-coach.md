@@ -42,11 +42,11 @@ solutions:
 technologies:
   - image: /img/Microsoft SQL Server.png
     name: Microsoft SQL Server
-  - image: /img/angular.js.png
+  - image: /img/express.js.png
     name: Express.js
-  - image: /img/Angular.js.png
+  - image: /img/angular.js.png
     name: Angular.js
-  - image: /img/Gulp.js.png
+  - image: /img/gulp.js.png
     name: Gulp.js
   - image: /img/bootstrap.png
     name: Bootstrap
