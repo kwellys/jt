@@ -30,11 +30,28 @@ solutions:
     projects, clients, hardware, and employees. We also had to develop a system
     for reporting.
   featuresList:
-    - img: /img/Cloud.png
+    - img: /img/PMGIcon1.png
       title: ''
+    - img: /img/PMGIcon2.png
+    - img: /img/PMGIcon3.png
   title: Scope
 technologies:
-  - image: /img/Redux.png
+  - image: /img/ASP.NET MVC.png
+    name: ASP.NET MVC
+  - image: /img/C Sharp.png
+    name: C Sharp
+  - image: /img/Microsoft SQL Server.png
+    name: Microsoft SQL Server
+  - image: /img/JavaScript.png
+    name: JavaScript
+  - image: /img/jquerytech.png
+    name: jQuery
+  - image: /img/bootstrap.png
+    name: Bootstrap
+  - image: /img/Git.png
+    name: Git
+  - image: /img/Pivotal Tracker.png
+    name: Pivotal Tracker
 projectResults:
   descr: >-
     The completely developed internal inventory system, that included a list of
