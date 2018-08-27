@@ -2,8 +2,8 @@
 templateKey: index-page
 title: index
 meta:
-  metaDescr: meta descripition
-  metaTitle: meta title
+  metaDescr: Jet Technical
+  metaTitle: Jet Technical
   pageTitle: Jet Technical
 promo:
   descr: We bring your web projects to life from wireframes to full-scale launch
@@ -78,7 +78,7 @@ technologies:
         name: SASS
       - image: /img/html5.jpg
         name: HTML5
-      - image: /img/angular.jpg
+      - image: /img/angular.old.jpg
         name: AngularJS
       - image: /img/git.jpg
         name: Git
