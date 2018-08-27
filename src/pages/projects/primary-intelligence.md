@@ -8,7 +8,7 @@ meta:
 date: '2018-07-19T15:39:40+03:00'
 category: Enterprise Solution
 smallDescr: 'Business analytics, marketing research and competitive analysis'
-preview: /img/снимок-экрана-2018-08-22-в-19.25.46.png
+preview: /img/PM1.png
 promo:
   link: primary-intel.com
   sub: 'Business analytics, marketing research and competitive analysis'
@@ -21,19 +21,20 @@ goals:
     Boeing, Dell, IBM, Oracle, Philips, Ricoh, Siemens and other.
   title: About the project
 slider:
-  - img: /img/снимок-экрана-2018-08-22-в-19.25.46.png
+  - img: /img/PM1.png
+  - img: /img/PM2.png
+  - img: /img/PM3.png
+  - img: /img/PM4.png
+  - img: /img/PMG3.png
 solutions:
   descr: >-
     Increase speed of the TruVoice application (complex system for analysis of
     big volumes of clients business data). Reorganize database, rebuild project
     form .NET to Node.js.
-  title: Scope
   featuresList:
     - img: /img/Cloud.png
       title: '123'
-stages:
-  - isComplete: true
-    stageDetails: Test
+  title: Scope
 technologies:
   - image: /img/SoapUI.png
     name: Node.JS
