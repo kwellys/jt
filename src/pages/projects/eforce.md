@@ -30,8 +30,10 @@ solutions:
     there is a match, the responsible manager is notified that the item is
     wanted.
   featuresList:
-    - img: /img/Cloud.png
-      title: '123'
+    - img: /img/pen.png
+      title: ''
+    - img: /img/group-4.1.png
+    - img: /img/group-3.png
   title: Scope
 technologies:
   - image: /img/angular.jpg
