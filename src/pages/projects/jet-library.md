@@ -31,13 +31,19 @@ solutions:
     when working with large volumes of data. Another important task was to
     design intuitive and minimalistic interface.
   featuresList:
-    - img: /img/Cloud.png
-      title: ''
-    - img: /img/BackEnd Tech.png
-    - img: /img/FrontEnd Tech.png
+    - {}
   title: Scope
 technologies:
-  - image: /img/SoapUI.png
+  - image: /img/ASP.NET MVC.png
+    name: ASP.NET MVC
+  - image: /img/Microsoft SQL Server.png
+    name: Microsoft SQL Server
+  - image: /img/jquerytech.png
+    name: jQuery
+  - image: /img/Team Foundation Server.png
+    name: Team Foundation Server
+  - image: /img/Visual Studio.png
+    name: Visual Studio
 projectResults:
   descr: >-
     We closed the project within 5 month. Within this time we developed
