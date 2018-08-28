@@ -398,6 +398,10 @@ collections:
             label: 'Team Member Position'
             name: occupation
             widget: string
+          -
+            label: 'Team Member Description'
+            name: descr
+            widget: text
     - file: "src/pages/products/index.md"
       label: "Products Page"
       name: "products"
@@ -594,6 +598,10 @@ collections:
             label: 'Team Member Position'
             name: occupation
             widget: string
+          -
+            label: 'Team Member Description'
+            name: descr
+            widget: text
       -
         label: 'Why Us Section'
         name: why
@@ -650,9 +658,9 @@ collections:
     label: 'Industries Pages'
     files:
     -
-      file: src/pages/fintech.md
-      name: Fintech
-      label: 'Fintech'
+      file: src/pages/data.md
+      name: Data
+      label: 'Data'
       fields:
       -
         label: 'Template Key'
@@ -673,9 +681,9 @@ collections:
           name: sub
           widget: text
     -
-      file: src/pages/blockchain.md
-      name: Blockchain
-      label: 'Blockchain'
+      file: src/pages/healthcare.md
+      name: Healthcare
+      label: 'Healthcare'
       fields:
       -
         label: 'Template Key'
@@ -719,9 +727,9 @@ collections:
           name: sub
           widget: text
     -
-      file: src/pages/booking.md
-      name: 'Booking & Event Platforms'
-      label: 'Booking & Event Platforms'
+      file: src/pages/information.md
+      name: Information
+      label: Information
       fields:
       -
         label: 'Template Key'

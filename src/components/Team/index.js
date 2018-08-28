@@ -3,13 +3,18 @@ import './styles.scss'
 import TeamTitle from '../../assets/images/titles/team.png'
 import TeamMemberBlank from '../../assets/images/team/member.png'
 
-const TeamMember = ({name, image, occupation}) => (
+const TeamMember = ({name, image, occupation, descr}) => (
   <li className="team__item">
-    <div className="team__image-container">
-      <img src={image ? image : TeamMemberBlank} alt={name}/>
+    <div className="team__container">
+      <div className="team__image-container">
+        <img src={image ? image : TeamMemberBlank} alt={name}/>
+      </div>
+      <div className="team__info">
+        <h3 className="team__name">{name}</h3>
+        <p className="team__descr">{occupation}</p>
+      </div>
     </div>
-    <h3 className="team__name">{name}</h3>
-    <p className="team__descr">{occupation}</p>
+    <p className="team__skills">{descr}</p>
   </li>
 );
 

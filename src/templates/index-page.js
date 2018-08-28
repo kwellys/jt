@@ -144,6 +144,7 @@ export const indexPageQuery = graphql`
             image
             name
             occupation
+            descr
           }
         }
       }
