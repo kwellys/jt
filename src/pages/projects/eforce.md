@@ -8,8 +8,7 @@ meta:
 date: '2018-07-19T15:39:00+03:00'
 categories:
   - category: Enterprise Solution
-  - category: Data
-category: Enterprise Solution
+  - category: Information
 smallDescr: Pawnshop inventory system
 preview: /img/Eforce1.png
 promo:
