@@ -6,6 +6,8 @@ meta:
   metaTitle: JET Library
   pageTitle: JET Library
 date: '2018-07-19T15:39:00+03:00'
+categories:
+  - category: Enterprise Solution
 category: Enterprise Solution
 smallDescr: Data storage and workflow automation
 preview: /img/JetLibrary1.png
