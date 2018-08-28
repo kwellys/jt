@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles.scss'
 import TeamTitle from '../../assets/images/titles/team.png'
+import TeamMainTitle from '../../assets/images/titles/team-main.png'
 import TeamMemberBlank from '../../assets/images/team/member.png'
 
 const TeamMember = ({name, image, occupation, descr}) => (
@@ -23,10 +24,13 @@ const Team = ({description, hasTitle, members}) => (
     <div className="team__wrapper">
       {hasTitle ?
         <h2 className="team__title">
+          <img src={TeamMainTitle} alt="Company & Team"/>
+          <span className="visually-hidden">Company & Team</span>
+        </h2>
+        : <h2 className="team__title">
           <img src={TeamTitle} alt="Company & Team"/>
           <span className="visually-hidden">Company & Team</span>
         </h2>
-        : null
       }
       <ul className="team__list">
         {members ? members.map((member, index) => <TeamMember key={index} {...member}/>) : null}
