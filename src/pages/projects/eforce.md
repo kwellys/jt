@@ -6,6 +6,9 @@ meta:
   metaTitle: eFORCE
   pageTitle: eFORCE
 date: '2018-07-19T15:39:00+03:00'
+categories:
+  - category: Enterprise Solution
+  - category: Data
 category: Enterprise Solution
 smallDescr: Pawnshop inventory system
 preview: /img/Eforce1.png
