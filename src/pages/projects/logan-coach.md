@@ -66,6 +66,7 @@ projectResults:
     - descr: June 2016 — Now
       icon: /img/Time.png
       title: Time
+  title: Project results
 testimonial:
   description: Need feedback
   person:

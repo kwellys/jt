@@ -121,6 +121,7 @@ export const projectQuery = graphql`
           name
         }
         projectResults {
+          title
           descr
           results {
             title

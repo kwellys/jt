@@ -16,7 +16,7 @@ const SmallResult = ({title, descr, icon}) => (
 const ProjectResults = ({data}) => (
   <section className="results">
     <div className="results__wrapper">
-      <h2 className="results__title">Project Results</h2>
+      {data.title ? <h2 className="results__title">{data.title}</h2> : <h2 className="results__title">Enter title</h2>}
       <div className="results__columns">
         <div className="results__column">
           {data.descr ? data.descr.split("\n").map(item => <p key={item.length + item[0]} className="results__descr">{item}</p>) : null}

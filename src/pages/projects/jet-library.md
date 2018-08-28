@@ -59,6 +59,7 @@ projectResults:
     - descr: April 2017 — September 2017
       icon: /img/Time.png
       title: Time
+  title: Project results
 testimonial:
   description: Need feedback
   person:
