@@ -1,6 +1,7 @@
 ---
 templateKey: project
 title: JET Library
+isInternal: true
 meta:
   metaDescr: JET Libraryy
   metaTitle: JET Library
