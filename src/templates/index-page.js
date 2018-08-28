@@ -129,6 +129,7 @@ export const indexPageQuery = graphql`
           descr
         }
         geography {
+          isInternal
           company
           link
           logo

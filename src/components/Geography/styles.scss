@@ -180,8 +180,10 @@
 .geography__info {
   position: absolute;
   z-index: 1;
-  top: -43px;
-  left: -125px;
+  top: -35px;
+  top: -7px;
+  transform: translateY(-100%);
+  right: 25px;
 
   opacity: 0;
   visibility: hidden;
@@ -230,7 +232,7 @@
   height: 23px;
   margin-right: 8px;
 
-  background-color: $blue;
+  //background-color: $blue;
   border-radius: 50%;
 
   overflow: hidden;
@@ -243,6 +245,7 @@
 }
 
 .geography__content {
+  white-space: nowrap;
   text-align: left;
 }
 

@@ -174,10 +174,10 @@ collections:
       widget: select
       options:
       - 'Enterprise Solution'
-      - Blockchain
-      - 'Booking & Event Platforms'
+      - Healthcare
+      - 'Data'
       - E-commerce
-      - Fintech
+      - Information
     - label: 'Small description'
       name: smallDescr
       widget: text
@@ -617,6 +617,11 @@ collections:
           label: 'Client Name'
           name: company
           widget: string
+        -
+          label: 'Is internal'
+          name: isInternal
+          widget: boolean
+          default: false
         -
           label: 'Client Link'
           name: link

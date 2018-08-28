@@ -1,10 +1,11 @@
 import React from 'react'
+import Link from 'gatsby-link'
 import './styles.scss'
 import GeoMap from '../../assets/images/content/map.svg'
 import LinkedIn from '../../assets/images/icons/linkedin.png'
 import UpWork from '../../assets/images/icons/upwork.png'
 
-const GeographyLabel = ({company = 'Company name', link = 'Link to company site', logo = '', position = {top: 50, left: 50}}) => (
+const GeographyLabel = ({company = 'Company name', isInternal = false, link = 'Link to company site', logo = '', position = {top: 50, left: 50}}) => (
   <div className="geography__label" style={{top: position.top + '%', left: position.left + '%'}}>
     <div className="geography__info">
       <div className="geography__icon">
@@ -12,7 +13,7 @@ const GeographyLabel = ({company = 'Company name', link = 'Link to company site'
       </div>
       <div className="geography__content">
         <h3 className="geography__title">{company}</h3>
-        <a href={'http://' + link} className="geography__link">{link}</a>
+        {isInternal ? <Link to={link} className="geography__link">View</Link> : <a href={'http://' + link} className="geography__link">{link}</a>}
       </div>
     </div>
   </div>
