@@ -123,15 +123,9 @@ companyandteam:
     We are a team of professionals on a mission to creating a faster, more
     beautiful and reliable web
   members:
-    - image: /img/1.jpg
-      name: Tamara Pattinson
-      occupation: Project Management & Customer Care & CIO
     - image: /img/galuza.png
       name: Sergey Galuza
       occupation: Project Management & Senior Developer & CTO
-    - image: /img/1.jpg
-      name: David Tilton
-      occupation: Project Management & Customer Care
     - image: /img/schebet.png
       name: Alex Schebet
       occupation: CTO
