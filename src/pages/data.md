@@ -1,6 +1,6 @@
 ---
 templateKey: ind-page
-title: Datta
+title: Data
 promo:
   sub: ''
 ---
