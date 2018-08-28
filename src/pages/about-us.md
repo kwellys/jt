@@ -34,9 +34,5 @@ companyandteam:
       image: /img/schebet.png
       name: Alexander Schebet
       occupation: CTO
-    - descr: '123'
-      image: /img/yurkevich.png
-      name: Vitali Yurkevich
-      occupation: Customer relations manager
 ---
 
