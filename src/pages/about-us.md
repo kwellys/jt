@@ -22,15 +22,15 @@ aboutUs:
     beautiful and reliable web
 companyandteam:
   members:
-    - descr: '123'
+    - descr: ''
       image: /img/1.jpg
       name: Tamara
       occupation: Head
-    - descr: '123'
-      image: /img/stupak.png
-      name: Vitaly Stupak
-      occupation: Director
-    - descr: '123'
+    - descr: ''
+      image: /img/galuza.png
+      name: Sergey Galuza
+      occupation: CTO
+    - descr: ''
       image: /img/schebet.png
       name: Alexander Schebet
       occupation: CTO
