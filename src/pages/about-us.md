@@ -22,27 +22,21 @@ aboutUs:
     beautiful and reliable web
 companyandteam:
   members:
-    - image: /img/1.jpg
+    - descr: '123'
+      image: /img/1.jpg
       name: Tamara
       occupation: Head
-    - image: /img/1.jpg
-      name: Sergey Galuza
-      occupation: Head
-    - image: /img/stupak.png
+    - descr: '123'
+      image: /img/stupak.png
       name: Vitaly Stupak
       occupation: Director
-    - image: /img/schebet.png
+    - descr: '123'
+      image: /img/schebet.png
       name: Alexander Schebet
       occupation: CTO
-    - image: /img/yurkevich.png
+    - descr: '123'
+      image: /img/yurkevich.png
       name: Vitali Yurkevich
       occupation: Customer relations manager
-    - image: /img/1.jpg
-      name: Who
-      occupation: '?'
-    - image: /img/1.jpg
-      name: Who
-      occupation: '?'
-products: '*'
 ---
 
