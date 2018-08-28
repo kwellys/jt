@@ -123,18 +123,18 @@ companyandteam:
     We are a team of professionals on a mission to creating a faster, more
     beautiful and reliable web
   members:
+    - descr: Description for Alex
+      image: /img/1.jpg
+      name: Tamara
+      occupation: Head
     - descr: Description for Sergey
       image: /img/galuza.png
       name: Sergey Galuza
-      occupation: Project Management & Senior Developer & CTO
-    - descr: Description for Alex
-      image: /img/schebet.png
-      name: Alex Schebet
       occupation: CTO
     - descr: Description for Nick
       image: /img/yurkevich.png
       name: Nick Bors
-      occupation: Customer Care manager
+      occupation: Customer Care
 why:
   - descr: In latest technologies over 80 full-time employees
     image: /img/experts.png
