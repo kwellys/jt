@@ -7,8 +7,8 @@ meta:
   pageTitle: Primary Intelligence
 date: '2018-07-19T15:39:40+03:00'
 categories:
+  - category: Enterprise Solution
   - category: Data
-category: Enterprise Solution
 smallDescr: 'Business analytics, marketing research and competitive analysis'
 preview: /img/PM1.png
 promo:
