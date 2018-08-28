@@ -78,6 +78,7 @@ projectResults:
     - descr: April 2013 — April 2014
       icon: /img/Time.png
       title: Time
+  title: Project results
 testimonial:
   description: Need feedback
   person:
