@@ -25,7 +25,9 @@ const IndustriesPage = ({data, handleModal}) => {
   const categoryProjects = data.categoryProjects.edges;
 
   const allPages = categoryProjects.map(item => item.node);
-  const filter = (arg) =>  allPages.filter(item => item.frontmatter.category === arg);
+  // allPages.map(item => item.frontmatter.categories).map(item => item.some(categories => categories['category'] === 'Healthcare'));
+
+  const filter = (arg) =>  allPages.filter(item => item.frontmatter.categories.some(item => item.category === arg));
 
   return (
     <IndustriesPageTemplate
@@ -66,6 +68,9 @@ export const industriesPageQuery = graphql`
             category
             smallDescr
             preview
+            categories {
+              category
+            }
           }
         }
       }

@@ -39,6 +39,9 @@ export const projectsQuery = graphql`
             category
             smallDescr
             preview
+            categories {
+              category
+            }
           }
         }
       }

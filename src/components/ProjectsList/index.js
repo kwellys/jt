@@ -4,26 +4,30 @@ import { kebabCase } from 'lodash';
 import "./styles.scss";
 import slugify from "slugify";
 
-const Project = ({ frontmatter, fields }) => (
-  <li className="project-list__item">
-    <Link to={fields.slug} className="project-list__link">
+const Project = ({ frontmatter, fields }) => {
+  const allCategories = frontmatter.categories.map(item => item.category);
+  return (
+    <li className="project-list__item">
+      <Link to={fields.slug} className="project-list__link">
       <span className="project-list__image-container">
         <img
           src={frontmatter.preview}
           alt={frontmatter.title}
         />
       </span>
-      <span className="project-list__container">
+        <span className="project-list__container">
         <h2 className="project-list__title">{frontmatter.title}</h2>
-        <h3 className="project-list__type">{frontmatter.category}</h3>
+          {allCategories.map(category => <h3 className="project-list__type">{category}</h3>)}
+
         <p className="project-list__descr">{frontmatter.smallDescr}</p>
         <span className="project-list__more">
           See case
         </span>
       </span>
-    </Link>
-  </li>
-);
+      </Link>
+    </li>
+  )
+};
 
 const ProjectList = ({data}) => (
   <section className="project-list">

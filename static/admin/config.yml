@@ -169,15 +169,20 @@ collections:
       name: date
       widget: datetime
     -
-      label: Category
-      name: category
-      widget: select
-      options:
-      - 'Enterprise Solution'
-      - Healthcare
-      - 'Data'
-      - E-commerce
-      - Information
+      label: 'Categories'
+      name: categories
+      widget: list
+      fields:
+        -
+          label: Category
+          name: category
+          widget: select
+          options:
+          - 'Enterprise Solution'
+          - Healthcare
+          - 'Data'
+          - E-commerce
+          - Information
     - label: 'Small description'
       name: smallDescr
       widget: text
