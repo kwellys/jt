@@ -7,6 +7,9 @@ meta:
   metaTitle: Point Care
   pageTitle: Point Care
 date: '2018-07-19T15:39:00+03:00'
+categories:
+  - category: Enterprise Solution
+  - category: Healthcare
 category: Enterprise Solution
 smallDescr: Insurance program aggregator and broker
 preview: /img/PointCare1.png
