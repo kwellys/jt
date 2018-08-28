@@ -9,7 +9,7 @@ meta:
 date: '2018-07-19T15:39:00+03:00'
 categories:
   - category: Enterprise Solution
-category: Enterprise Solution
+  - category: E-commerce
 smallDescr: Custom trailers
 preview: /img/LoganCoach1.png
 promo:
