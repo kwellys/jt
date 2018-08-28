@@ -159,36 +159,42 @@ why:
     title: Warranty
 geography:
   - company: JET Library
+    isInternal: true
     link: /projects/jet-library
     logo: /img/logojetlibrary.png
     position:
       left: '25'
       top: '24'
   - company: eForce
+    isInternal: false
     link: eforcesoftware.com
     logo: /img/logoeforce.png
     position:
       left: '26.5'
       top: '24.5'
   - company: Logan Coach
+    isInternal: false
     link: logancoach.com
     logo: /img/logologancoach.png
     position:
       left: '25'
       top: '27'
   - company: PMG
+    isInternal: false
     link: pmgvegetation.com
     logo: /img/logopmg.png
     position:
       left: '26.5'
       top: '27.5'
   - company: Primary Intelligence
+    isInternal: false
     link: primary-intel.com
     logo: /img/logopi.png
     position:
       left: '25.5'
       top: '30'
   - company: Point Care
+    isInternal: false
     link: pointcare.com
     logo: /img/logopointcare.png
     position:
