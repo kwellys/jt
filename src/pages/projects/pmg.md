@@ -6,6 +6,8 @@ meta:
   metaTitle: PMG
   pageTitle: PMG
 date: '2018-07-19T15:39:00+03:00'
+categories:
+  - category: Healthcare
 category: Enterprise Solution
 smallDescr: Vegetation control and environmental protection
 preview: /img/PMG1.png
