@@ -70,10 +70,14 @@ projectResults:
       title: Time
   title: Project results
 testimonial:
-  description: Need feedback
+  description: >-
+    Jet Technical was a great find. Extremely reasonable rates even though based
+    in US and quality of work was excellent. Very professional, technically
+    strong and always available on phone, skype and email. I highly recommend
+    this company to anyone.
   person:
     image: /img/1.jpg
-    name: Name
-    occupation: Position
+    name: Joshua Robinson
+    occupation: Project Manager
 ---
 
