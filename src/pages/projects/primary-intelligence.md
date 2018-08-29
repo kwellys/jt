@@ -40,9 +40,9 @@ solutions:
     - img: /img/PIIcon3.png
   title: Scope
 technologies:
-  - image: /img/nodejs.jpg
+  - image: /img/nodejsicon.png
     name: Node.js
-  - image: /img/mongo.jpg
+  - image: /img/mongodbicon.png
     name: MongoDB
   - image: /img/angular5.png
     name: Angular 5
