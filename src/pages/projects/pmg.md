@@ -69,10 +69,13 @@ projectResults:
       title: Time
   title: Project results
 testimonial:
-  description: Need feedback
+  description: >-
+    Jet Technical has been a terrific partner in the development of our project.
+    They have been responsive, creative and professional in their efforts. Would
+    definitely recommend them to other people.
   person:
     image: /img/1.jpg
-    name: Name
-    occupation: Position
+    name: Daniel Jones
+    occupation: Project Manager
 ---
 
