@@ -85,10 +85,13 @@ projectResults:
       title: Time
   title: Project results
 testimonial:
-  description: Need feedback
+  description: >-
+    The update was made quickly and efficiently, reaching all deadlines and
+    staying within the agreed-upon budget. The websites accrued increased
+    traffic after the changes were made.
   person:
     image: /img/1.jpg
-    name: Name
-    occupation: Position
+    name: Matthew Taylor
+    occupation: Project Manager
 ---
 
