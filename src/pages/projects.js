@@ -36,7 +36,6 @@ export const projectsQuery = graphql`
           }
           frontmatter {
             title
-            category
             smallDescr
             preview
             categories {
