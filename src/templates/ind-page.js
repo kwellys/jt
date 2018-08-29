@@ -65,7 +65,6 @@ export const industriesPageQuery = graphql`
           frontmatter {
             templateKey
             title
-            category
             smallDescr
             preview
             categories {
