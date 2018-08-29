@@ -123,10 +123,10 @@ companyandteam:
     We are a team of professionals on a mission to creating a faster, more
     beautiful and reliable web
   members:
-    - descr: Description for Alex
+    - descr: Description for Tamara
       image: /img/1.jpg
-      name: Tamara
-      occupation: Head
+      name: Tamara Pattinson
+      occupation: CEO
     - descr: Description for Sergey
       image: /img/galuza.png
       name: Sergey Galuza
@@ -134,7 +134,7 @@ companyandteam:
     - descr: Description for Nick
       image: /img/yurkevich.png
       name: Nick Bors
-      occupation: Customer Care
+      occupation: CCO
 why:
   - descr: In latest technologies over 80 full-time employees
     image: /img/experts.png
