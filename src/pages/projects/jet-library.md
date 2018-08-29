@@ -46,7 +46,7 @@ technologies:
     name: jQuery
   - image: /img/Team Foundation Server.png
     name: Team Foundation Server
-  - image: /img/Visual Studio.png
+  - image: /img/visual-studio.png
     name: Visual Studio
 projectResults:
   descr: >-
