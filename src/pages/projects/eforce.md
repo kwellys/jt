@@ -82,10 +82,14 @@ projectResults:
       title: Time
   title: Project results
 testimonial:
-  description: Need feedback
+  description: >-
+    I am very impressed by the quality of work and responsiveness JET. This was
+    my first experience and I definitely have to say it exceeded my
+    expectations. I would definitely recommend JET Technical and I will continue
+    to use its services for future web design and development projects
   person:
     image: /img/1.jpg
-    name: Name
-    occupation: Position
+    name: Herwin Write
+    occupation: Project Manager
 ---
 
