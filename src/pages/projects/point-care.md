@@ -10,7 +10,6 @@ date: '2018-07-19T15:39:00+03:00'
 categories:
   - category: Enterprise Solution
   - category: Healthcare
-category: Enterprise Solution
 smallDescr: Insurance program aggregator and broker
 preview: /img/PointCare1.png
 promo:
@@ -78,10 +77,13 @@ projectResults:
       title: Time
   title: Project results
 testimonial:
-  description: Need feedback
+  description: >-
+    JET-Technical was fantastic. My contact was very responsive and helped walk
+    me through the project. They were cordial and went out of their way to make
+    the project a success. I WILL be using JET-Technical again. Thank you!
   person:
     image: /img/1.jpg
-    name: Name
-    occupation: Position
+    name: Jason Brown
+    occupation: Project Manager
 ---
 
