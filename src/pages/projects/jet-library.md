@@ -63,10 +63,13 @@ projectResults:
       title: Time
   title: Project results
 testimonial:
-  description: Need feedback
+  description: >-
+    The JET Library is our own project, and we worked on it, using all our
+    accumulated experience. And, judging by the reviews of the companies that
+    use the JET Library, our product turned out to be remarkable.
   person:
     image: /img/1.jpg
-    name: Name
-    occupation: Position
+    name: Tamara Pattinson
+    occupation: CEO
 ---
 
