@@ -2,9 +2,11 @@
 templateKey: index-page
 title: index
 meta:
-  metaDescr: Jet Technical
-  metaTitle: Jet Technical
-  pageTitle: Jet Technical
+  metaDescr: >-
+    Jet Technical is a software development company. We bring your web projects
+    to life from wireframes to full-scale launch.
+  metaTitle: Custom Software Development Company — Jet Technical
+  pageTitle: Custom Software Development Company — Jet Technical
 promo:
   descr: We bring your web projects to life from wireframes to full-scale launch
   image: /img/jettech.png
