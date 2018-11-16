@@ -37,9 +37,11 @@ solutions:
     wanted.
   featuresList:
     - img: /img/EforceIcon1.png
-      title: ''
+      title: Test1
     - img: /img/EforceIcon2.png
+      title: Test2
     - img: /img/EforceIcon3.png
+      title: Test3
   title: Scope
 technologies:
   - image: /img/ASP.NET MVC.png
